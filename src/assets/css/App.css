@@ -249,6 +249,7 @@ header {
 
 .top-detail {
   padding-top: 60px;
+  padding-bottom: 70px;
 
   & .row {
     display: flex;
@@ -297,7 +298,7 @@ header {
 }
 
 .battles {
-  padding: 100px 0 30px;
+  padding: 20px 0;
 
   & .title {
     font-size: 30px;
@@ -307,11 +308,7 @@ header {
     width: max-content;
     margin: 0 auto 30px;
     padding-bottom: 10px;
-    margin-top: 30px;
 
-    &:first-child {
-      margin-top: 0;
-    }
 
     &::after {
       width: 100px;
@@ -328,13 +325,8 @@ header {
   & .battles-detail {
     display: flex;
     align-items: center;
-    padding-bottom: 30px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     flex-direction: column;
-
-    &:last-child {
-      border-bottom: none;
-    }
 
     & img {
       height: 300px;
@@ -347,6 +339,7 @@ header {
     & p {
       font-size: 19px;
       line-height: 32px;
+      padding-bottom: 25px;
     }
   }
 }

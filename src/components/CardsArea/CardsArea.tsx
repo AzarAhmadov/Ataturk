@@ -1,11 +1,11 @@
 import { FC } from 'react'
 import Cards from '../Cards/Cards'
-import signature from '../../../public/images/imza.png'
+import signature from '../../../public/images/signature.png'
 
 const CardsArea: FC = () => {
     return (
         <section className='cards-area'>
-            <img src={'https://beylikduzu.com/wp-content/uploads/ataturk-imza-kirmizi-png.png'} alt={'imza'} />
+            <img src={signature} alt={'imza'} />
             <Cards />
             <p className='text'>
                 "Mənim naciz bədənim bir gün torpaq olacaqdır,

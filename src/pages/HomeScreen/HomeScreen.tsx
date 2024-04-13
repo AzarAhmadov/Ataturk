@@ -4,10 +4,10 @@ import CardsArea from '../../components/CardsArea/CardsArea'
 
 const Home: FC = () => {
     return (
-        <section>
+        <main>
             <Hero />
             <CardsArea />
-        </section>
+        </main>
     )
 }
 

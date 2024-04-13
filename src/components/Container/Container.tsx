@@ -1,5 +1,4 @@
 import { FC, ReactNode } from 'react'
-
 interface Children {
     children: ReactNode
 }

@@ -14,12 +14,16 @@ const Hero: FC = () => {
                         <p>
                             “Türkiyə Cümhuriyyəti öndəri"
                         </p>
+                        <p className='bottom-txt'>
+                            O, 57 illik həyatına 11 müharibə, 24 medal, 7 orden, 13 kitab, 1 ölkə və milyonlarla azad insan sığdıran böyük hərbçi, siyasət və dövlət xadimidir. Sevgi, hörmət, minnət və həsrətlə...
+                        </p>
                     </div>
                     <div className="right">
                         <img src="https://agm.org.tr/wp-content/uploads/2021/12/1-2.jpg" alt="Mustafa Kemal Atatürk" />
                     </div>
                 </div>
             </section>
+
             <BackVideo />
 
             <div className='arrow'>
