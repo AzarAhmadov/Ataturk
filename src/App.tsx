@@ -1,5 +1,5 @@
 import { FC } from "react"
-import Home from "./pages/HomeScreen/Home"
+import Home from "./pages/HomeScreen/HomeScreen"
 
 const App: FC = () => {
   return (
