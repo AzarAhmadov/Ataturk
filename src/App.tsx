@@ -1,11 +1,11 @@
 import { FC } from "react"
-import Hero from "./components/Hero/Hero"
+import Home from "./pages/HomeScreen/Home"
 
 const App: FC = () => {
   return (
-    <>
-      <Hero />
-    </>
+    <main>
+      <Home />
+    </main>
   )
 }
 
