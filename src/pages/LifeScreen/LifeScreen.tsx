@@ -1,5 +1,7 @@
 import { FC, useEffect } from 'react'
 import History from '../../components/History/History'
+import Title from '../../common/Title/Title'
+import Books from '../../components/Books/Books'
 
 const LifeScreen: FC = () => {
 
@@ -9,30 +11,56 @@ const LifeScreen: FC = () => {
 
     return (
         <main>
+            <Title title={`Mustafa Kemal Atatürk’ün Hayatı`} />
             <History
-                text={`Atatürk'ün Selanik'te doğduğu evden ailenin orta halli, hatta bundan az üstün durumda olduğu anlaşılmaktadır.
-                XIX. uncu yüzyılda hele taşralarda kayıtlar pek eksik olduğundan onun doğum günü bilinmemektedir. O, Rumi 1286 yılında doğmuş olarak kayıtlı olduğuna göre 1880 veya 1881 de doğmuş demektir. Adı Mustafa idi.
-                19 Mayıs 1932 de Bay Reşit Saffet Atabinen'in kendisine "Doğum gününüzü kutlarım" yollu bir telgraf çekmesi, Atatürk'ün hoşuna gitmişti. Bundan az sonra Temmuz 1932 de Türk Tarih Kurumu'nun ilk kongresi sırasında Aydın Halkevi'nin tarih, dil, edebiyat komitesinin bir "Gazi Günü" kabul etmek istediğini söyleyip ona doğum gününü soran öğretmene Atatürk: "Bana onu sormayınız, ben doğduğum günü bilmiyorum" der ve "Gazi Günü" olarak da : "Samsun'a çıktığım günü" yapınız sözünü eklemiştir.`}
-                title={`Mustafa Kemal Atatürk'ün doğduğu ev, Selanik`}
-                img='https://cdn.ytur.net/fit-in/697x465/filters:quality(100)/filters:format(webp)/post/selanik-ataturk-evi-1-220313-104655-8546.jpg'
-            />
-            <History
-                text={`
-                Küçük Mustafa, öğrenim çağına gelince annesinin arzusu üzerine Hafız Mehmet Efendi'nin mahalle mektebinde ilköğrenimine başladı. Kısa bir süre sonra babasının isteğiyle devrinin şartlarına göre modern eğitim veren Şemsi Efendi Mektebine geçti. Bu sırada babasını kaybetti. Bir süre Rapla Çiftliği'nde dayısının yanında kaldıktan sonra Selânik'e dönüp okulunu bitirdi. Selânik Mülkiye Rüştiyesine kaydoldu ve kısa bir süre sonra, 1893 yılında, Selanik Askerî Rüştiyesine girdi. Çok sevdiği matematik dersinin öğretmeni Yüzbaşı Mustafa Efendi’den, “Kemal” adını aldı.
-                Böylece adı “Mustafa Kemal” oldu. Selanik Askerî Rüştiyesini bitirdikten sonra 1896 yılında Manastır Askerî İdadisine başladı. Edebiyata olan ilgisi, onda gelecekteki hitabet ve yazılı anlatım ustalığının temelini oluşturdu. Manastır Askerî İdadisindeki tarih öğretmeni Kolağası Mehmet Tevfik Bey, Mustafa Kemal’in tarihe ve özellikle Türk tarihine ilgi duymasında başlıca etken oldu.1896-1899 yıllarında Manastır Askeri İdadisini bitirip, İstanbul’da Harp Okulu’nun piyade sınıfına yazıldı. Bu okuldaki öğrenciliği sırasında arkadaşlarıyla birlikte hürriyet fikirlerini yaymak amacıyla gizli olarak el basması bir gazete çıkardı. 1902 yılında Harp Okulundan teğmen rütbesiyle mezun olarak Harp Akademisine girdi. 1903 yılında ikinci sınıfa geçerek üsteğmenliğe yükseldi. 11 Ocak 1905'te yüzbaşı rütbesiyle Harp Akademisinden mezun oldu.
-                `}
-                title='Gençlik dönemi '
-                img='https://img.ulusal.com.tr/rcman/Cw1280h720q95gc/storage/files/images/2023/03/02/ataturkun-harp-okulunda-aldigi-dersler-ve-notlari-3B48.jpg'
+                img='https://i.makeagif.com/media/8-20-2017/MffOw8.gif'
+                text={
+                    <>
+                        <p>
+                            1881 yılında Selanik’te dünyaya gelen Atatürk’ün babası Ali Rıza Efendi annesi ise Zübeyde Hanım’dır. Zübeyde Hanım ve Ali Rıza Efendi’nin 6 çocuğundan dördüncüsü olan Mustafa Kemal, öğrenim hayatına, önce annesinin de isteğiyle Hafız Mehmed Efendi Mahalle Mektebi’nde başlamış ancak daha sonra, bu okuldan memnun olmaması sebebiyle babası tarafından Şemsi Efendi Mektebi’ne verilmiştir.
+                        </p>
+                        <p>
+                            1893 yılında babası Ali Rıza Efendi’nin vefat etmesi üzerine eğitim hayatına ara vermek zorunda kalan Mustafa Kemal, annesi ile birlikte dayısının Langaza’daki çitliğine gitmiş ve yaklaşık 5 ay kadar burada kalmıştır.
+                        </p>
+                        <p>
+                            5 ay süren çiftlik hayatından sonra yeniden Selanik’e dönen Mustafa Kemal, ortaokul eğitimini almak üzere önce Selanik Mülkiye Rüşdiyesi’nde daha sonra da annesinden gizli olarak sınavlarına girdiği Selanik Askeri Rüşdiyesi’nde eğitimine devam etmiştir. Kendisine matematik öğretmeni tarafından Kemal adının verilmesi de bu askeri ortaokulda gerçekleşmiştir.
+                        </p>
+                        <p>
+                            Ortaokul eğitiminden sonra lise eğitimini almak için Selanik’ten ayrılan Mustafa Kemal, Manastır’a gitmiş ve buradaki Manastır Askeri İdadisi’nde eğitimi tamamlamıştır. Burada özellikle Tarih ve Edebiyat derslerinden oldukça etkilenen Mustafa Kemal, aynı zamanda Fransızca olan yabancı dilini geliştirme fırsatı da yakalamıştır.
+                        </p>
+                        <p>
+                            Lise eğitiminden sonra yüksek öğrenimini tamamlamak için İstanbul’a gelen Mustafa Kemal; önce İstanbul Harp Okulu’na girerek 1902 senesinde buradan teğmen olarak mezun olmuş, daha sonra ise girdiği Harp Akademisi’nden 1905 yılında kurmay yüzbaşı olarak mezun olmuştur.
+                        </p>
+                        <p>
+                            Öğrenim hayatı bittikten sonra ilk olarak Şam’da bulunan 5. Ordu’da stajını tamamlayan Mustafa Kemal; buradaki görevinin tamamladıktan sonra önce Manastır’da bulunan 3. Ordu karargahına daha sonra ise 3. Ordu Selanik 2. Redif Tümeni Kurmay Başkanlığı’na atanmıştır. Mustafa Kemal’in, 31 Mart Ayaklanmasını bastırmak için Harekât Ordusu ile birlikte İstanbul’a hareket etmesi de bu görevde iken gerçekleşmiştir.
+                        </p>
+                        <p>
+                            1911 senesinde gönüllü olarak Trablusgarp Savaşı’na katılan Mustafa Kemal, burada Tobruk ve Derne bölgesinde savaştıktan sonra; Balkan Savaşları’na katılmış ve 1913 yılında Edirne’yi Bulgarlardan geri almıştır.
+                        </p>
+                        <p>
+                            1914 yılında yarbay olduktan sonra kendi isteğiyle 1. Dünya Savaşı’na katılan Mustafa Kemal, Tekirdağ’da kurulacak olan 19. Tümen Komutanlığı’na atanmış ve Çanakkale Savaşı’nda büyük bir kahramanlık ile İtilaf güçlerinin Çanakkale’yi geçmelerine engel olmuştur. Çanakkale Savaşı’nın ardından 16. Kolordu Komutanlığına atanan Mustafa Kemal, Kafkas Cephesinde görevlendirilmiş ve bu dönemde Muş ile Bitlis’in Ruslardan geri alınmasını sağlamıştır.
+                        </p>
+                        <p>
+                            1. Dünya Savaşı’nın ardından imzalanan Mondros Ateşkes Antlaşması sonrası, 9. Ordu Müfettişi olarak Samsun’a çıkan Mustafa Kemal burada Türk Kurtuluş Savaşı’nın fitilini ateşlemiş ve sırasıyla Erzurum ve Sivas Kongrelerini toplayarak vatanın kurtuluşu içi izlenecek yolları belirlemiştir. 1919 yılında Ankara’ya gelen Mustafa Kemal, 23 Nisan 1923 tarihinde açılan TBMM’nin meclis ve hükümet başkanlığına seçilmiştir.
+                        </p>
+                        <p>
+                            1919 ile 1922 yılları arasında süren Kurtuluş Savaşı neticesinde Türk milletini bağımsızlığa kavuşturan Mustafa Kemal; önce 1922 yılında saltanatı kaldırmış daha sonra ise yeni Türk devletinin yönetim şeklini Cumhuriyet olarak belirlemiştir.
+                        </p>
+                        <p>
+                            Bu tarihten itibaren Türkiye Cumhuriyeti’nin cumhurbaşkanı olarak görev yapan Mustafa Kemal; sosyal, siyasi, ekonomik ve hukuki nitelikleri olan bir dizi inkılapları gerçekleştirerek, bu yeni cumhuriyeti ve toplumu çağdaş bir devlet ve medeniyet haline getirmiş; Türkiye Cumhuriyeti’nin dünyanın saygın devletleri arasına sokmuştur.
+                        </p>
+                        <p>
+                            1934 yılında çıkartılan Soyadı Kanunu ile birlikte TBMM tarafından kendisine Atatürk soyadı verilen Mustafa Kemal, özel hayatında ise 1923 yılında Latife Hanım ile evlenmiş ve bu evlilik 1925 yılına kadar sürmüştür. Ayrıca Mustafa Kemal Atatürk Afet, Sabiha, Fikriye, Ülkü, Nebile, Rukiye, Zehra isimli kızları ve Mustafa isminde bir erkek çocuğu evlat edinmiştir.
+                        </p>
+                        <p>
+                            1937 yılından itibaren sağlığı bozulmaya başlayan Atatürk, son günlerini İstanbul’da doktorların gözetimi altında geçirmiş ve 10 Kasım 1938 Perşembe günü sabah 9’u 5 geçe Dolmabahçe Sarayı’nda hayatını kaybetmiştir.
+                        </p>
+                    </>
+                }
             />
 
-            <History
-                text={`
-                Mustafa Kemal, Harp Okulu ve Harp Akademisindeki öğrenciliği sırasında ülke ve millet sorunlarıyla yakından ilgilenmiş, aydın ve ileri fikirli bir subay olarak tanınmıştı. Bu nedenle Harp Akademisinden mezuniyetini takiben yönetim karşıtı fikirlerinden dolayı kısa bir süre gözaltında tutuldu. 1905 yılında Şam'daki 5. Ordu emrine atandı. Aynı yıl bazı arkadaşlarıyla birlikte, gizli olarak, Vatan ve Hürriyet Cemiyeti’ni kurdu. Bu cemiyetin Beyrut, Yafa ve Kudüs’te şubeleri açıldı.
-                1906 yılında gizlice Selanik’e giderek aynı cemiyetin bir şubesini açtıktan sonra geri döndü. Selanik’teki şube aynı yıl Osmanlı Hürriyet Cemiyeti’ne katıldı. Selanik’te gizli olarak faaliyet gösteren bu cemiyet, 1907 yılında Osmanlı İttihat ve Terakki Cemiyeti ile birleşti.1907'de Kolağası (Kıdemli Yüzbaşı) rütbesini aldı.
-                `}
-                title='Harp okulu'
-                img='https://www.kulturportali.gov.tr/contents/images/%c5%9fam.jpg?format=jpg&quality=50&width=1200'
-            />
+            <Title title={`Mustafa Kemal Atatürk’ün yazdığı kitaplar`} />
+            <Books />
         </main>
     )
 }

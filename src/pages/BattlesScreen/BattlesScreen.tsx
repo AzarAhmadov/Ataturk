@@ -1,5 +1,6 @@
 import { FC, useEffect } from 'react'
 import History from '../../components/History/History'
+import Title from '../../common/Title/Title'
 
 const BattlesScreen: FC = () => {
 
@@ -9,13 +10,15 @@ const BattlesScreen: FC = () => {
 
     return (
         <main>
+
+            <Title title='Qurtuluş Savaşı' />
             <History
-                title='Qurtuluş Savaşı'
                 text='Türk ordusunun büyük bir azimle savaştığı bir cephe olan Kurtuluş Savaşı Cephesi 31 Mart 1921 senesine kadar sürmüş ve çok kanlı geçmiştir. Mustafa Kemal Bu savaş sonrası `milletin makus talihini yenen bir savaş olmuştur` şeklinde bir ifade ile bu savaşın önemini anlatmıştır.'
                 img='https://www.gelincanlar.com/wp-content/uploads/2019/10/ataturk-askerlik-yillari.jpg'
             />
+
+            <Title title='Çanakkale Savaşı' />
             <History
-                title='Çanakkale Savaşı'
                 text={
                     <>
                         <p>
@@ -32,8 +35,8 @@ const BattlesScreen: FC = () => {
                 img='https://foto.haberler.com/haber/2021/02/03/canakkale-savasi-tarihi-canakkale-savasi-kisaca-13906031_5274_amp.jpg'
             />
 
+            <Title title='Doğu (Kafkas) Cephesi' />
             <History
-                title='Doğu (Kafkas) Cephesi'
                 text={
                     <>
                         <p>
@@ -43,8 +46,9 @@ const BattlesScreen: FC = () => {
                 }
                 img='https://iasbh.tmgrup.com.tr/5da3f2/650/344/0/0/720/377?u=https://isbh.tmgrup.com.tr/sbh/2020/12/13/1607858251827.jpg'
             />
+
+            <Title title='Suriye-Filistin Cephesi' />
             <History
-                title='Suriye-Filistin Cephesi'
                 text={
                     <>
                         <p>
@@ -61,11 +65,15 @@ const BattlesScreen: FC = () => {
                 }
                 img='https://sozcuo01.sozcucdn.com/wp-content/uploads/2018/07/ataturk-sinan-meydan.jpg'
             />
+
+            <Title title='Sakarya Savaşı' />
             <History
-                title='Sakarya Savaşı'
                 text='Mustafa Kemal Atatürk Yunanlara karşı savaşılan bu cepheye 18 Temmuz 1921 tarihinde bizzat gelerek gözlemlemiştir. Ordunun yeniden güçlendirilebilmesi için Sakarya’ya kadar çekilmesini söyleyen Atatürk Yunan ordularına karşı bir şans elde etmiştir. Bu cephede savaşırken Başkomutan unvanı alan Atatürk, 12 Ağustos 1921 günü bu unvanı ile ordunun başına geçmiştir.'
                 img='https://tssf.gov.tr/wp-content/uploads/2021/09/Sakarya-Meydan-Muharebesinin-100uncu-yil-donumu.jpg '
             />
+
+
+            <Title title='Trablusgarp Savaş' />
             <History
                 title='Trablusgarp Savaş'
                 text={
@@ -83,6 +91,9 @@ const BattlesScreen: FC = () => {
                 }
                 img='https://www.murselcavus.com/wp-content/files/2019/07/TRABLUSGARP.png'
             />
+
+
+            <Title title='İkinci Balkan Savaşı' />
             <History
                 title='İkinci Balkan Savaşı'
                 text={
@@ -97,11 +108,15 @@ const BattlesScreen: FC = () => {
                 }
                 img='https://avim.org.tr/images/uploads/Bulten/ii-balkan-savasi-ni-bitiren-bukres-anlasmasi-10-agustos-1913-h258685-030e8.jpg'
             />
+
+            <Title title='Arnavutluk İsyanı' />
             <History
                 title='Arnavutluk İsyanı'
                 text='Bu isyanı bastırmak üzere görevlendirilen o dönemde Harbiye Nazırı olan Mahmut Şevket olmuştur. Mahmut Şevket komutasındaki isyanı durdurmak için görevlendirilen kuvvet içerisinde Mustafa Kemal Atatürk de bizzat bulunmuştur. Mahmut Şevket ve Atatürk’ün de dahil olduğu ordu isyanı bir ay içerisinde bastırmıştır.'
                 img='https://upload.wikimedia.org/wikipedia/commons/9/9a/Shkup1912.jpg'
             />
+
+            <Title title='31 Mart Vakası' />
             <History
                 title='31 Mart Vakası'
                 text={

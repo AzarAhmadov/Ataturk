@@ -93,8 +93,9 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1220px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 header {
@@ -342,29 +343,29 @@ header {
   }
 }
 
+.title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  width: max-content;
+  margin: 0px auto 30px;
+  padding-bottom: 10px;
+
+  &::after {
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    height: 3px;
+    background: red;
+  }
+}
+
 .battles {
   padding: 20px 0;
-
-  & .title {
-    font-size: 30px;
-    text-align: center;
-    font-weight: 500;
-    position: relative;
-    width: max-content;
-    margin: 0px auto 30px;
-    padding-bottom: 10px;
-
-    &::after {
-      width: 100px;
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      content: "";
-      height: 3px;
-      background: red;
-    }
-  }
 
   & .battles-detail {
     display: flex;
@@ -397,6 +398,56 @@ header {
       &:last-child {
         padding-bottom: 13px;
       }
+    }
+  }
+}
+
+.books-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+  place-items: center;
+  text-align: center;
+  padding-bottom: 40px;
+
+  & li {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    width: 100%;
+    height: 340px;
+    border-radius: 10px;
+    position: relative;
+    padding: 5px;
+
+    &:hover h4 {
+      opacity: 1;
+      transform: scale(1);
+      visibility: visible;
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      object-fit: cover;
+      display: block;
+    }
+
+    & h4 {
+      transition: 400ms all;
+      opacity: 0;
+      visibility: hidden;
+      font-size: 21px;
+      font-weight: 400;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      background-color: hsla(0, 0%, 100%, .4);
+      backdrop-filter: blur(3px);
+      transform: scale(0);
     }
   }
 }

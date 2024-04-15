@@ -10,6 +10,6 @@ export type TopDescriptionProps = {
 
 export type HistoryProps = {
     title?: string;
-    text: ReactNode;
-    img: string;
+    text?: ReactNode;
+    img?: string;
 }

@@ -1,5 +1,6 @@
 import { FC, useEffect } from 'react'
 import History from '../../components/History/History'
+import Title from '../../common/Title/Title'
 
 const FamilyScreen: FC = () => {
 
@@ -9,8 +10,8 @@ const FamilyScreen: FC = () => {
 
     return (
         <main>
+            <Title title={`Atatürk'ün annesi Zübeyde Hanım`} />
             <History
-                title={`Atatürk'ün annesi Zübeyde Hanım`}
                 text={
                     <>
                         <p>
@@ -27,8 +28,8 @@ const FamilyScreen: FC = () => {
                 img='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJfQ4_R0_0PqF0GSD-zZxOVQPJfL64scGhCEqXpMxe5ZlCICM6Cq7zN2ftzTvg8lwFmGA&usqp=CAU'
             />
 
+            <Title title={`Atatürk'ün babası Ali Rıza Efendi`} />
             <History
-                title={`Atatürk'ün babası Ali Rıza Efendi`}
                 text={
                     <>
                         <p>
