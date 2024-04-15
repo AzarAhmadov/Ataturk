@@ -7,6 +7,7 @@ import TopDescription from '../common/TopDescription/TopDescription';
 import BattlesScreen from '../pages/BattlesScreen/BattlesScreen';
 import LifeScreen from '../pages/LifeScreen/LifeScreen';
 import Footer from '../common/Footer/Footer';
+import FamilyScreen from '../pages/FamilyScreen/FamilyScreen';
 
 export const router = createBrowserRouter([
     {
@@ -48,6 +49,24 @@ export const router = createBrowserRouter([
                         img2='https://i.pinimg.com/736x/eb/e0/f5/ebe0f5037f4901bdf03c78b38f8314bc.jpg'
                     />
                     <LifeScreen />
+                </Container>
+            </>
+        ,
+    },
+    {
+        path: "/Ataturk/family",
+        element:
+            <>
+                <Header />
+                <Container>
+                    <TopDescription
+                        title='Atatürk’ün ailəsi'
+                        desc1={`Babası Ali Rıza Efendi, annesi Zübeyde Hanım'dır`}
+                        desc2=''
+                        img1='https://upload.wikimedia.org/wikipedia/commons/4/43/Z%C3%BCbeyde_Han%C4%B1m.jpg'
+                        img2='https://upload.wikimedia.org/wikipedia/commons/9/99/Portrait_of_a_volunteer_officer_of_the_Ottoman_Civilian_Battalion.jpg'
+                    />
+                    <FamilyScreen />
                 </Container>
             </>
         ,

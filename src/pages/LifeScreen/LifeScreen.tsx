@@ -10,7 +10,9 @@ const LifeScreen: FC = () => {
     return (
         <main>
             <History
-                text={`Mustafa Kemal Atatürk, 1881 yılında Selânik'te Kocakasım Mahallesi, Islâhhâne Caddesi'ndeki üç katlı pembe evde doğdu.`}
+                text={`Atatürk'ün Selanik'te doğduğu evden ailenin orta halli, hatta bundan az üstün durumda olduğu anlaşılmaktadır.
+                XIX. uncu yüzyılda hele taşralarda kayıtlar pek eksik olduğundan onun doğum günü bilinmemektedir. O, Rumi 1286 yılında doğmuş olarak kayıtlı olduğuna göre 1880 veya 1881 de doğmuş demektir. Adı Mustafa idi.
+                19 Mayıs 1932 de Bay Reşit Saffet Atabinen'in kendisine "Doğum gününüzü kutlarım" yollu bir telgraf çekmesi, Atatürk'ün hoşuna gitmişti. Bundan az sonra Temmuz 1932 de Türk Tarih Kurumu'nun ilk kongresi sırasında Aydın Halkevi'nin tarih, dil, edebiyat komitesinin bir "Gazi Günü" kabul etmek istediğini söyleyip ona doğum gününü soran öğretmene Atatürk: "Bana onu sormayınız, ben doğduğum günü bilmiyorum" der ve "Gazi Günü" olarak da : "Samsun'a çıktığım günü" yapınız sözünü eklemiştir.`}
                 title={`Mustafa Kemal Atatürk'ün doğduğu ev, Selanik`}
                 img='https://cdn.ytur.net/fit-in/697x465/filters:quality(100)/filters:format(webp)/post/selanik-ataturk-evi-1-220313-104655-8546.jpg'
             />
