@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { TopDescriptionProps } from '../types/types'
+import { TopDescriptionProps } from '../../types/types'
 
 const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, img2 }) => {
     return (
@@ -13,7 +13,7 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
                         {desc1}
                     </p>
                     <p className='bottom-txt'>
-                        {desc2} 
+                        {desc2}
                     </p>
                 </div>
                 <div className='img-row'>

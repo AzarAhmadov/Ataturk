@@ -1,7 +1,12 @@
-import { FC } from 'react'
+import { FC, useEffect } from 'react'
 import History from '../../components/History/History'
 
 const LifeScreen: FC = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <main>
             <History

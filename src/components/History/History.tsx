@@ -8,7 +8,9 @@ const History: FC<HistoryProps> = ({ img, text, title }) => {
                 {title}
             </h3>
             <div className='battles-detail'>
-                <img src={img} alt={title} />
+                <div className='img-area'>
+                    <img src={img} alt={title} />
+                </div>
                 <p>
                     {text}
                 </p>

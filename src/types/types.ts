@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type TopDescriptionProps = {
     title?: string;
     desc1?: string;
@@ -8,6 +10,6 @@ export type TopDescriptionProps = {
 
 export type HistoryProps = {
     title?: string;
-    text: string;
+    text: ReactNode;
     img: string;
 }
