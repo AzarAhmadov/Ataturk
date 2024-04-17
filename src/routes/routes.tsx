@@ -8,14 +8,17 @@ import BattlesScreen from '../pages/BattlesScreen/BattlesScreen';
 import LifeScreen from '../pages/LifeScreen/LifeScreen';
 import Footer from '../common/Footer/Footer';
 import FamilyScreen from '../pages/FamilyScreen/FamilyScreen';
+import ScroolBtn from '../common/ScroolBtn/ScroolBtn';
 
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <>
-            <App />
-            <Footer />
-        </>,
+        element:
+            <>
+                <App />
+                <Footer />
+                <ScroolBtn />
+            </>,
         errorElement: <ErrorPage />,
     },
     {
@@ -33,6 +36,7 @@ export const router = createBrowserRouter([
                     />
                     <BattlesScreen />
                 </Container>
+                <ScroolBtn />
             </>,
     },
     {
@@ -50,6 +54,7 @@ export const router = createBrowserRouter([
                     />
                     <LifeScreen />
                 </Container>
+                <ScroolBtn />
             </>
         ,
     },
@@ -68,6 +73,7 @@ export const router = createBrowserRouter([
                     />
                     <FamilyScreen />
                 </Container>
+                <ScroolBtn />
             </>
         ,
     },

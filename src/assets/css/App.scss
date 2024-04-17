@@ -464,6 +464,38 @@ header {
   color: #fff;
 }
 
+.up-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  background: red;
+  border-radius: 50%;
+  padding: 10px;
+  display: grid;
+  place-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 400ms all;
+  bottom: 50px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  &.active {
+    visibility: visible;
+    bottom: 20px;
+    opacity: 1;
+  }
+
+  svg {
+    fill: #fff;
+  }
+}
+
 
 /* Mobile */
 
