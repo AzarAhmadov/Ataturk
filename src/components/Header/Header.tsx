@@ -12,14 +12,22 @@ const Header: FC = () => {
                     </Link>
                     <ul>
                         <li>
-                            <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to={'/Ataturk/battles'}> Döyüşləri </NavLink>
+                            <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to={'/Ataturk/battles'}>
+                                Döyüşləri
+                            </NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to={'/Ataturk/life'}> Həyatı </NavLink>
+                            <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to={'/Ataturk/life'}>
+                                Həyatı
+                            </NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to={'/Ataturk/family'}> Ailəsi </NavLink>
+                            <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to={'/Ataturk/family'}>
+                                Ailəsi
+                            </NavLink>
                         </li>
+                        
+                        <div className="anime"></div>
                     </ul>
                 </div>
             </Container>

@@ -516,6 +516,22 @@ header {
       width: 100%;
       text-align: center;
 
+      &:nth-child(1) a {
+        border-top-right-radius: 0px;
+        border-right: 1px solid #ffffff3c;
+        border-bottom-right-radius: 0px;
+      }
+
+      &:nth-child(2) a {
+        border-radius: 0 !important;
+      }
+
+      &:nth-child(3) a {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-left: 1px solid #ffffff3c;
+      }
+
       a {
         padding: 10px 0px;
         text-align: center;

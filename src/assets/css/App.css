@@ -452,6 +452,19 @@ header .header-row ul li a.active {
   width: 100%;
   text-align: center;
 }
+.mobile-menu ul li:nth-child(1) a {
+  border-top-right-radius: 0px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2352941176);
+  border-bottom-right-radius: 0px;
+}
+.mobile-menu ul li:nth-child(2) a {
+  border-radius: 0 !important;
+}
+.mobile-menu ul li:nth-child(3) a {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2352941176);
+}
 .mobile-menu ul li a {
   padding: 10px 0px;
   text-align: center;

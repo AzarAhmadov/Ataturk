@@ -13,11 +13,7 @@ import MobileMenu from '../components/MobileMenu/MobileMenu';
 export const router = createBrowserRouter([
     {
         path: "/",
-        element:
-            <>
-                <App />
-                <ScroolBtn />
-            </>,
+        element: <App />,
         errorElement: <ErrorPage />,
     },
     {

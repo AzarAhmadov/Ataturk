@@ -13,7 +13,13 @@ const BattlesScreen: FC = () => {
 
             <Title title='Qurtuluş Savaşı' />
             <History
-                text='Türk ordusunun büyük bir azimle savaştığı bir cephe olan Kurtuluş Savaşı Cephesi 31 Mart 1921 senesine kadar sürmüş ve çok kanlı geçmiştir. Mustafa Kemal Bu savaş sonrası `milletin makus talihini yenen bir savaş olmuştur` şeklinde bir ifade ile bu savaşın önemini anlatmıştır.'
+                text={
+                    <>
+                        <p>
+                            Türk ordusunun büyük bir azimle savaştığı bir cephe olan Kurtuluş Savaşı Cephesi 31 Mart 1921 senesine kadar sürmüş ve çok kanlı geçmiştir. Mustafa Kemal Bu savaş sonrası `milletin makus talihini yenen bir savaş olmuştur` şeklinde bir ifade ile bu savaşın önemini anlatmıştır.
+                        </p>
+                    </>
+                }
                 img='https://www.gelincanlar.com/wp-content/uploads/2019/10/ataturk-askerlik-yillari.jpg'
             />
 
