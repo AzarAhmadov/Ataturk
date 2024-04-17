@@ -5,12 +5,9 @@ const BackVideo: FC = () => {
 
     return (
         <div className='video'>
-            <video
-                src={Video}
-                muted
-                autoPlay
-                loop
-            />
+            <video autoPlay loop muted playsInline>
+                <source src={Video} type="video/mp4" />
+            </video>
         </div>
     )
 }

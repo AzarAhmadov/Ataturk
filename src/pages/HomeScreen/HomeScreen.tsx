@@ -9,10 +9,10 @@ const Home: FC = () => {
     }, [])
 
     return (
-        <main>
+        <>
             <Hero />
             <CardsArea />
-        </main>
+        </>
     )
 }
 
