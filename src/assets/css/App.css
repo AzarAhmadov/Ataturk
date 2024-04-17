@@ -47,6 +47,9 @@ body {
   body .top-detail .row .bottom-txt {
     color: rgba(255, 255, 255, 0.8392156863);
   }
+  body .battles:last-child .battles-detail {
+    border-bottom: none;
+  }
   body .battles .battles-detail {
     border-bottom: 1px solid rgba(255, 255, 255, 0.231372549);
   }
@@ -320,6 +323,9 @@ header .header-row ul li a.active {
 .battles {
   padding-bottom: 20px;
 }
+.battles:last-child .battles-detail {
+  border-bottom: none;
+}
 .battles .battles-detail {
   display: flex;
   align-items: center;
@@ -400,14 +406,6 @@ header .header-row ul li a.active {
   transform: scale(0);
 }
 
-.footer {
-  background: rgb(174, 2, 2);
-  padding: 4px 0;
-  text-align: center;
-  font-size: 20px;
-  color: #fff;
-}
-
 .up-btn {
   position: fixed;
   right: 20px;
@@ -462,7 +460,7 @@ header .header-row ul li a.active {
   justify-content: center;
   color: #fff;
   display: flex;
-  font-size: 18px;
+  font-size: 16px;
   transition: 400ms all;
 }
 .mobile-menu ul li a.active {
@@ -564,6 +562,7 @@ header .header-row ul li a.active {
   }
   .cards-area {
     padding-top: 50px;
+    padding-bottom: 0;
   }
   .cards-area .text {
     padding: 25px 10px 0;
@@ -614,6 +613,7 @@ header .header-row ul li a.active {
   }
   .books-list {
     grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 45px;
   }
   .books-list li {
     height: 290px;
@@ -647,6 +647,7 @@ header .header-row ul li a.active {
     display: flex;
   }
   .top-detail .img-row div {
-    width: 160px !important;
+    height: 270px !important;
+    width: 170px !important;
   }
 }/*# sourceMappingURL=App.css.map */

@@ -12,9 +12,11 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
                     <p>
                         {desc1}
                     </p>
-                    <p className='bottom-txt'>
-                        {desc2}
-                    </p>
+                    {
+                        desc2 && <p className='bottom-txt'>
+                            {desc2}
+                        </p>
+                    }
                 </div>
                 <div className='img-row'>
                     <div>

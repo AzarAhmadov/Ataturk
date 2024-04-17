@@ -6,7 +6,6 @@ import Container from '../components/Container/Container';
 import TopDescription from '../common/TopDescription/TopDescription';
 import BattlesScreen from '../pages/BattlesScreen/BattlesScreen';
 import LifeScreen from '../pages/LifeScreen/LifeScreen';
-import Footer from '../common/Footer/Footer';
 import FamilyScreen from '../pages/FamilyScreen/FamilyScreen';
 import ScroolBtn from '../common/ScroolBtn/ScroolBtn';
 import MobileMenu from '../components/MobileMenu/MobileMenu';
@@ -17,7 +16,6 @@ export const router = createBrowserRouter([
         element:
             <>
                 <App />
-                <Footer />
                 <ScroolBtn />
             </>,
         errorElement: <ErrorPage />,

@@ -8,9 +8,7 @@ const History: FC<HistoryProps> = ({ img, text }) => {
                 <div className='img-area'>
                     <img src={img} />
                 </div>
-                <p>
-                    {text}
-                </p>
+                {text}
             </div>
         </section>
     )
