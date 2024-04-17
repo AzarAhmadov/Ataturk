@@ -14,11 +14,9 @@ const BattlesScreen: FC = () => {
             <Title title='Qurtuluş Savaşı' />
             <History
                 text={
-                    <>
-                        <p>
-                            Türk ordusunun büyük bir azimle savaştığı bir cephe olan Kurtuluş Savaşı Cephesi 31 Mart 1921 senesine kadar sürmüş ve çok kanlı geçmiştir. Mustafa Kemal Bu savaş sonrası `milletin makus talihini yenen bir savaş olmuştur` şeklinde bir ifade ile bu savaşın önemini anlatmıştır.
-                        </p>
-                    </>
+                    <p>
+                        Türk ordusunun büyük bir azimle savaştığı bir cephe olan Kurtuluş Savaşı Cephesi 31 Mart 1921 senesine kadar sürmüş ve çok kanlı geçmiştir. Mustafa Kemal Bu savaş sonrası `milletin makus talihini yenen bir savaş olmuştur` şeklinde bir ifade ile bu savaşın önemini anlatmıştır.
+                    </p>
                 }
                 img='https://www.gelincanlar.com/wp-content/uploads/2019/10/ataturk-askerlik-yillari.jpg'
             />
@@ -44,11 +42,9 @@ const BattlesScreen: FC = () => {
             <Title title='Doğu (Kafkas) Cephesi' />
             <History
                 text={
-                    <>
-                        <p>
-                            Mustafa Kemal Atatürk 11 Mart 1916 tarihinde Kolordu Komutanı olarak Diyarbakır, Muş ve Bitlis cephesinde Ruslara ve Ruslar ile birleşen Ermenilere karşı savaşmıştır. 8 Ağustos 1916 tarihinde Bitlis’de ve 14 Mayıs 1917 tarihinde Muş cephesinde düşmana karşı zafer elde edilmiş ve bu bölgeler düşman işgalinden kurtulmuştur. 1 Nisan 1916 tarihinde Mustafa Kemal Atatürk’e Doğu (Kafkas) Cephesi olarak da bilinen Diyarbakır, Muş ve Bitlis cephelerinde göstermiş olduğu başarısından dolayı Tuğgenerallık Rütbesi verilmiştir. Bu cephede gösterilen başarı sonrası Rus birlikleri geri çekilmiştir.
-                        </p>
-                    </>
+                    <p>
+                        Mustafa Kemal Atatürk 11 Mart 1916 tarihinde Kolordu Komutanı olarak Diyarbakır, Muş ve Bitlis cephesinde Ruslara ve Ruslar ile birleşen Ermenilere karşı savaşmıştır. 8 Ağustos 1916 tarihinde Bitlis’de ve 14 Mayıs 1917 tarihinde Muş cephesinde düşmana karşı zafer elde edilmiş ve bu bölgeler düşman işgalinden kurtulmuştur. 1 Nisan 1916 tarihinde Mustafa Kemal Atatürk’e Doğu (Kafkas) Cephesi olarak da bilinen Diyarbakır, Muş ve Bitlis cephelerinde göstermiş olduğu başarısından dolayı Tuğgenerallık Rütbesi verilmiştir. Bu cephede gösterilen başarı sonrası Rus birlikleri geri çekilmiştir.
+                    </p>
                 }
                 img='https://iasbh.tmgrup.com.tr/5da3f2/650/344/0/0/720/377?u=https://isbh.tmgrup.com.tr/sbh/2020/12/13/1607858251827.jpg'
             />
@@ -118,7 +114,11 @@ const BattlesScreen: FC = () => {
             <Title title='Arnavutluk İsyanı' />
             <History
                 title='Arnavutluk İsyanı'
-                text='Bu isyanı bastırmak üzere görevlendirilen o dönemde Harbiye Nazırı olan Mahmut Şevket olmuştur. Mahmut Şevket komutasındaki isyanı durdurmak için görevlendirilen kuvvet içerisinde Mustafa Kemal Atatürk de bizzat bulunmuştur. Mahmut Şevket ve Atatürk’ün de dahil olduğu ordu isyanı bir ay içerisinde bastırmıştır.'
+                text={
+                    <p>
+                        Bu isyanı bastırmak üzere görevlendirilen o dönemde Harbiye Nazırı olan Mahmut Şevket olmuştur. Mahmut Şevket komutasındaki isyanı durdurmak için görevlendirilen kuvvet içerisinde Mustafa Kemal Atatürk de bizzat bulunmuştur. Mahmut Şevket ve Atatürk’ün de dahil olduğu ordu isyanı bir ay içerisinde bastırmıştır.
+                    </p>
+                }
                 img='https://upload.wikimedia.org/wikipedia/commons/9/9a/Shkup1912.jpg'
             />
 
@@ -138,7 +138,7 @@ const BattlesScreen: FC = () => {
                 img='https://www.gelincanlar.com/wp-content/uploads/2019/10/ataturk-savaslari.jpg'
             />
 
-        </main>
+        </main >
     )
 }
 
