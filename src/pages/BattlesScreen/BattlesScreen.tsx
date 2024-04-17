@@ -70,7 +70,11 @@ const BattlesScreen: FC = () => {
 
             <Title title='Sakarya Savaşı' />
             <History
-                text='Mustafa Kemal Atatürk Yunanlara karşı savaşılan bu cepheye 18 Temmuz 1921 tarihinde bizzat gelerek gözlemlemiştir. Ordunun yeniden güçlendirilebilmesi için Sakarya’ya kadar çekilmesini söyleyen Atatürk Yunan ordularına karşı bir şans elde etmiştir. Bu cephede savaşırken Başkomutan unvanı alan Atatürk, 12 Ağustos 1921 günü bu unvanı ile ordunun başına geçmiştir.'
+                text={
+                    <p>
+                        Mustafa Kemal Atatürk Yunanlara karşı savaşılan bu cepheye 18 Temmuz 1921 tarihinde bizzat gelerek gözlemlemiştir. Ordunun yeniden güçlendirilebilmesi için Sakarya’ya kadar çekilmesini söyleyen Atatürk Yunan ordularına karşı bir şans elde etmiştir. Bu cephede savaşırken Başkomutan unvanı alan Atatürk, 12 Ağustos 1921 günü bu unvanı ile ordunun başına geçmiştir.
+                    </p>
+                }
                 img='https://tssf.gov.tr/wp-content/uploads/2021/09/Sakarya-Meydan-Muharebesinin-100uncu-yil-donumu.jpg '
             />
 
