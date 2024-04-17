@@ -457,10 +457,10 @@ header .header-row ul li a.active {
     width: 240px;
   }
   .hero .hero-row h1 {
-    font-size: 27px;
+    font-size: 28px;
   }
   .hero .hero-row p {
-    font-size: 20px;
+    font-size: 21px;
   }
   .hero .hero-row .bottom-txt {
     font-size: 14px;
@@ -488,7 +488,7 @@ header .header-row ul li a.active {
     font-size: 25px;
   }
   .cards ul li img {
-    height: 400px;
-    width: 290px;
+    height: 350px;
+    width: 320px;
   }
 }/*# sourceMappingURL=App.css.map */
