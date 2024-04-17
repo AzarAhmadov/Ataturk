@@ -11,7 +11,7 @@ import FamilyScreen from '../pages/FamilyScreen/FamilyScreen';
 
 export const router = createBrowserRouter([
     {
-        path: "/Ataturk",
+        path: "/",
         element: <>
             <App />
             <Footer />

@@ -7,7 +7,7 @@ const Header: FC = () => {
         <header>
             <Container>
                 <div className="header-row">
-                    <Link to={'/Ataturk'}>
+                    <Link to={'/'}>
                         <img src="https://baku.meb.gov.tr/meb_iys_dosyalar/2020_05/18221404_2468854_810x458.jpg" alt="" />
                     </Link>
                     <ul>
