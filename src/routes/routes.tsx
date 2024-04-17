@@ -9,6 +9,7 @@ import LifeScreen from '../pages/LifeScreen/LifeScreen';
 import Footer from '../common/Footer/Footer';
 import FamilyScreen from '../pages/FamilyScreen/FamilyScreen';
 import ScroolBtn from '../common/ScroolBtn/ScroolBtn';
+import MobileMenu from '../components/MobileMenu/MobileMenu';
 
 export const router = createBrowserRouter([
     {
@@ -36,6 +37,7 @@ export const router = createBrowserRouter([
                     />
                     <BattlesScreen />
                 </Container>
+                <MobileMenu />
                 <ScroolBtn />
             </>,
     },
@@ -50,10 +52,11 @@ export const router = createBrowserRouter([
                         desc1='Mustafa Kemal Atatürk (1881-1938)'
                         desc2='Beni görmek demek mutlaka yüzümü görmek demek değildir. Benim fikirlerimi, benim duygularımı anlıyorsanız ve hissediyorsanız bu yeterlidir.'
                         img1='https://upload.wikimedia.org/wikipedia/commons/a/a1/Atat%C3%BCrk_%28renkli%29.jpg'
-                        img2='https://i.pinimg.com/736x/eb/e0/f5/ebe0f5037f4901bdf03c78b38f8314bc.jpg'
+                        img2='https://images.saatchiart.com/saatchi/1848335/art/10488713/9551205-OQYGLFKS-7.jpg'
                     />
                     <LifeScreen />
                 </Container>
+                <MobileMenu />
                 <ScroolBtn />
             </>
         ,
@@ -73,6 +76,7 @@ export const router = createBrowserRouter([
                     />
                     <FamilyScreen />
                 </Container>
+                <MobileMenu />
                 <ScroolBtn />
             </>
         ,

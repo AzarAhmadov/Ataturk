@@ -50,6 +50,9 @@ body {
   body .battles .battles-detail {
     border-bottom: 1px solid rgba(255, 255, 255, 0.231372549);
   }
+  body .mobile-menu {
+    background-color: #252424;
+  }
 }
 @keyframes Image {
   0% {
@@ -300,8 +303,6 @@ header .header-row ul li a.active {
   text-align: center;
   font-weight: 500;
   position: relative;
-  width: -moz-max-content;
-  width: max-content;
   margin: 0px auto 30px;
   padding-bottom: 10px;
 }
@@ -317,7 +318,7 @@ header .header-row ul li a.active {
 }
 
 .battles {
-  padding: 20px 0;
+  padding-bottom: 20px;
 }
 .battles .battles-detail {
   display: flex;
@@ -410,7 +411,6 @@ header .header-row ul li a.active {
 .up-btn {
   position: fixed;
   right: 20px;
-  bottom: 20px;
   width: 40px;
   height: 40px;
   background: red;
@@ -429,15 +429,65 @@ header .header-row ul li a.active {
 }
 .up-btn.active {
   visibility: visible;
-  bottom: 20px;
+  bottom: 70px;
   opacity: 1;
 }
 .up-btn svg {
   fill: #fff;
 }
 
-/* Mobile */
+.mobile-menu {
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 340px;
+  border-radius: 50px;
+  background: #000;
+  display: none;
+}
+.mobile-menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-menu ul li {
+  width: 100%;
+  text-align: center;
+}
+.mobile-menu ul li a {
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 50px;
+  width: 100%;
+  justify-content: center;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  transition: 400ms all;
+}
+.mobile-menu ul li a.active {
+  background-color: red;
+  color: #fff;
+}
+
+/* Responsive */
 @media only screen and (max-width: 992px) {
+  .top-detail .row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .top-detail .img-row div {
+    width: 200px;
+    height: 400px;
+  }
+  .books-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  .books-list li {
+    width: 100%;
+    height: 380px;
+  }
   .hero .hero-row {
     flex-direction: column;
     text-align: center;
@@ -472,9 +522,26 @@ header .header-row ul li a.active {
     gap: 35px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .books-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media only screen and (max-width: 678px) {
+  .title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .books-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+  .books-list li {
+    height: 490px;
+  }
   .container {
-    padding: 0 10px;
+    padding: 0 15px;
   }
   .hero .hero-row {
     flex-direction: column;
@@ -519,5 +586,67 @@ header .header-row ul li a.active {
   .cards ul li img {
     height: 350px;
     width: 320px;
+  }
+}
+@media only screen and (max-width: 578px) {
+  body {
+    padding-bottom: 30px;
+  }
+  header {
+    position: relative;
+  }
+  header .header-row {
+    justify-content: center;
+  }
+  header .header-row ul {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .battles .battles-detail .img-area {
+    height: 220px;
+    width: 100%;
+  }
+  .battles .battles-detail p {
+    font-size: 16px;
+    padding-bottom: 13px;
+  }
+  .books-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .books-list li {
+    height: 290px;
+  }
+  .books-list li h4 {
+    font-size: 14px;
+  }
+  .top-detail {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .top-detail .row {
+    gap: 20px;
+  }
+  .top-detail .row .img-row div {
+    width: 150px;
+    height: 200px;
+  }
+  .top-detail .row h2 {
+    font-size: 23px;
+  }
+  .top-detail .row p {
+    font-size: 16px;
+  }
+  .top-detail .row .bottom-txt {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .top-detail .img-row {
+    gap: 12px;
+    display: flex;
+  }
+  .top-detail .img-row div {
+    width: 160px !important;
   }
 }/*# sourceMappingURL=App.css.map */
