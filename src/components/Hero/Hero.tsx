@@ -1,7 +1,6 @@
 import { FC } from 'react'
 import Container from '../Container/Container'
 import BackVideo from '../BackVideo/BackVideo'
-import { Link } from 'react-router-dom'
 
 const Hero: FC = () => {
     return (
