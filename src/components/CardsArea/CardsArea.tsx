@@ -4,7 +4,7 @@ import signature from '../../../public/images/signature.png'
 
 const CardsArea: FC = () => {
     return (
-        <section id='cards' className='cards-area'>
+        <section id='About' className='cards-area'>
             <img src={signature} alt={'imza'} />
             <Cards />
             <p className='text'>
