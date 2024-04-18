@@ -552,10 +552,11 @@ header {
         color: #fff;
         display: flex;
         font-size: 16px;
+        transition: 500ms all;
 
         &.active {
           box-shadow: 0 8px 21px 0 rgba(198, 11, 11, 0.16);
-          background: linear-gradient(134.25deg, #da0d06 -5.847%, #e50000 109.546%);
+          background-color: red;
           color: #fff;
         }
       }
