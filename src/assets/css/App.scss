@@ -484,7 +484,6 @@ header {
   height: 40px;
   background: red;
   border-radius: 50%;
-  padding: 10px;
   display: grid;
   place-items: center;
   visibility: hidden;
@@ -504,6 +503,7 @@ header {
   }
 
   svg {
+    padding: 10px;
     fill: #fff;
   }
 }

@@ -418,7 +418,6 @@ header .header-row ul li a.active {
   height: 40px;
   background: red;
   border-radius: 50%;
-  padding: 10px;
   display: grid;
   place-items: center;
   visibility: hidden;
@@ -436,6 +435,7 @@ header .header-row ul li a.active {
   opacity: 1;
 }
 .up-btn svg {
+  padding: 10px;
   fill: #fff;
 }
 
