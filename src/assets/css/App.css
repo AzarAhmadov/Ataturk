@@ -496,7 +496,7 @@ header .header-row ul li a.active {
   display: grid;
   place-items: center;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   opacity: 0;
   transition: 400ms all;
   visibility: hidden;
