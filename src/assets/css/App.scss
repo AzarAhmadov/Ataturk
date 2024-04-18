@@ -226,6 +226,7 @@ header {
     display: flex;
     align-items: center;
     gap: 100px;
+    color: #fff;
 
     img {
       width: 400px;
@@ -236,14 +237,12 @@ header {
 
     h1 {
       font-size: 55px;
-      color: #fff;
       margin-bottom: 5px;
     }
 
     h2 {
       font-size: 30px;
       font-weight: 500;
-      color: #fff;
     }
 
     .bottom-txt {
@@ -727,25 +726,25 @@ header {
   }
 
   .hero {
-    & .hero-row {
+    .hero-row {
       flex-direction: column;
       text-align: center;
       gap: 24px;
 
-      & img {
+      img {
         height: 400px;
         width: 300px;
       }
 
-      & h1 {
+      h1 {
         font-size: 35px;
       }
 
-      h2 p {
+      h2 {
         font-size: 25px;
       }
 
-      & .bottom-txt {
+      .bottom-txt {
         font-size: 17px;
       }
     }
