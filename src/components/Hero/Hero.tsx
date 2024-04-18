@@ -11,9 +11,9 @@ const Hero: FC = () => {
                         <h1>
                             Mustafa Kemal Atatürk
                         </h1>
-                        <p>
+                        <h2>
                             “Türkiyə Cümhuriyyəti öndəri"
-                        </p>
+                        </h2>
                         <p className='bottom-txt'>
                             O, 57 illik həyatına 11 müharibə, 24 medal, 7 orden, 13 kitab, 1 ölkə və milyonlarla azad insan sığdıran böyük hərbçi, siyasət və dövlət xadimidir. Sevgi, hörmət, minnət və həsrətlə...
                         </p>

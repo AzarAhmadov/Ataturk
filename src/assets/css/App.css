@@ -195,8 +195,9 @@ header .header-row ul li a.active {
   color: #fff;
   margin-bottom: 5px;
 }
-.hero .hero-row p {
+.hero .hero-row h2 {
   font-size: 30px;
+  font-weight: 500;
   color: #fff;
 }
 .hero .hero-row .bottom-txt {
@@ -629,7 +630,7 @@ header .header-row ul li a.active {
   .hero .hero-row h1 {
     font-size: 35px;
   }
-  .hero .hero-row p {
+  .hero .hero-row h2 p {
     font-size: 25px;
   }
   .hero .hero-row .bottom-txt {
@@ -717,7 +718,7 @@ header .header-row ul li a.active {
   .hero .hero-row h1 {
     font-size: 28px;
   }
-  .hero .hero-row p {
+  .hero .hero-row h2 {
     font-size: 21px;
   }
   .hero .hero-row .bottom-txt {
