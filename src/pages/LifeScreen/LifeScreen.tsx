@@ -11,6 +11,7 @@ const LifeScreen: FC = () => {
 
     return (
         <main>
+
             <Title title={`Mustafa Kemal Atatürk’ün Hayatı`} />
             <History
                 img='https://i.makeagif.com/media/8-20-2017/MffOw8.gif'

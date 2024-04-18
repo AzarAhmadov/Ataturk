@@ -56,6 +56,9 @@ body {
   body .mobile-menu {
     background-color: #252424;
   }
+  body .books-list li {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
 }
 @keyframes Image {
   0% {
@@ -373,6 +376,7 @@ header .header-row ul li a.active {
   border-radius: 10px;
   position: relative;
   padding: 5px;
+  cursor: pointer;
 }
 .books-list li:hover h4 {
   opacity: 1;
@@ -404,6 +408,7 @@ header .header-row ul li a.active {
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
   transform: scale(0);
+  border-radius: 10px;
 }
 
 .up-btn {
@@ -482,8 +487,118 @@ header .header-row ul li a.active {
   color: #fff;
 }
 
+.slide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 400ms all;
+  visibility: hidden;
+  transform: scale(0.95);
+}
+.slide.active {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: 400ms all;
+}
+.slide .container {
+  position: relative;
+}
+.slide .container .close {
+  cursor: pointer;
+  position: absolute;
+  top: -20px;
+  right: -200px;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+.slide .container .close svg {
+  fill: red;
+}
+.slide .container .prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -200px;
+  z-index: 1000;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #da0d06;
+  padding: 10px;
+  display: grid;
+  cursor: pointer;
+  place-items: center;
+}
+.slide .container .prev.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.slide .container .prev svg {
+  fill: #fff;
+}
+.slide .container .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -200px;
+  z-index: 1000;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #da0d06;
+  padding: 10px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.slide .container .next.disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.slide .container .next svg {
+  fill: #fff;
+}
+.slide .container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide .container div img {
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 450px;
+  border-radius: 10px;
+}
+.slide .container div h4 {
+  padding-left: 10px;
+  font-size: 25px;
+  padding-left: 25px;
+  width: 340px;
+}
+
 /* Responsive */
 @media only screen and (max-width: 992px) {
+  .slide .container .close {
+    top: -20px;
+    right: -100px;
+  }
+  .slide .container .prev {
+    left: -100px;
+  }
+  .slide .container .next {
+    right: -100px;
+  }
   .top-detail .row {
     flex-direction: column;
     text-align: center;
@@ -537,6 +652,39 @@ header .header-row ul li a.active {
 @media only screen and (max-width: 768px) {
   .books-list {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .slide .container .close {
+    top: -45px;
+    right: 32px;
+    width: 35px;
+    height: 35px;
+    padding: 6px;
+  }
+  .slide .container .prev {
+    left: -23px;
+    width: 35px;
+    height: 35px;
+  }
+  .slide .container .next {
+    right: -23px;
+    width: 35px;
+    height: 35px;
+  }
+  .slide .container div {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .slide .container div h4 {
+    font-size: 20px;
+    padding-left: 0;
+    height: 55px;
+    width: 280px;
+    text-align: center;
+  }
+  .slide .container div img {
+    width: 240px;
+    height: 370px;
+    border-radius: 10px;
   }
 }
 @media only screen and (max-width: 678px) {

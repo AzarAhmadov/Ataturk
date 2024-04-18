@@ -13,3 +13,8 @@ export type HistoryProps = {
     text?: ReactNode;
     img?: string;
 }
+
+export type BookProps = {
+    slide_img: string,
+    slide_txt: string
+}
