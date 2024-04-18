@@ -661,12 +661,12 @@ header .header-row ul li a.active {
     padding: 6px;
   }
   .slide .container .prev {
-    left: -23px;
+    left: -15px;
     width: 35px;
     height: 35px;
   }
   .slide .container .next {
-    right: -23px;
+    right: -15px;
     width: 35px;
     height: 35px;
   }
