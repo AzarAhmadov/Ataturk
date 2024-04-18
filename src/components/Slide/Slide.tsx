@@ -1,4 +1,4 @@
-import { FC, useEffect, useRef, useState } from 'react'
+import { FC, useEffect, useRef, useState, memo } from 'react'
 import Container from '../Container/Container'
 import { BooksData } from '../../data/data'
 import { BookProps } from '../../types/types';
@@ -75,4 +75,4 @@ const Slide: FC<SlideProps> = ({ CloseModal, currentData }) => {
     )
 }
 
-export default Slide
+export default memo(Slide)

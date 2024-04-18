@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, memo } from 'react'
 import { HistoryProps } from '../../types/types'
 
 const History: FC<HistoryProps> = ({ img, text }) => {
@@ -14,4 +14,4 @@ const History: FC<HistoryProps> = ({ img, text }) => {
     )
 }
 
-export default History
+export default memo(History)
