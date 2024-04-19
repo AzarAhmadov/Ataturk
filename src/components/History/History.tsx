@@ -19,7 +19,7 @@ const History: FC<HistoryProps> = ({ img, text }) => {
                         alt={'Mustafa Kamal Atatürk'}
                         effect="blur"
                         wrapperProps={{
-                            style: { transitionDelay: "300ms" },
+                            style: { transitionDelay: "100ms" },
                         }}
                         src={img} />
                 </div>
