@@ -25,7 +25,7 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
                             alt={'Mustafa Kamal Atatürk'}
                             effect="blur"
                             wrapperProps={{
-                                style: { transitionDelay: "300ms" },
+                                style: { transitionDelay: "200ms" },
                             }}
                             src={img1}
                         />
@@ -35,7 +35,7 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
                             alt={'Mustafa Kamal Atatürk'}
                             effect="blur"
                             wrapperProps={{
-                                style: { transitionDelay: "300ms" },
+                                style: { transitionDelay: "200ms" },
                             }}
                             src={img2}
                         />
