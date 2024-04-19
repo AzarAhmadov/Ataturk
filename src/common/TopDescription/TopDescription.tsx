@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import { TopDescriptionProps } from '../../types/types'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, img2 }) => {
     return (
@@ -20,10 +21,22 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
                 </div>
                 <div className='img-row'>
                     <div>
-                        <img src={img1} alt="Mustafa Kamal Atatürk" />
+                        <LazyLoadImage
+                            alt={'Mustafa Kamal Atatürk'}
+                            effect="blur"
+                            wrapperProps={{
+                                style: { transitionDelay: "300ms" },
+                            }}
+                            src={img1} />
                     </div>
                     <div>
-                        <img src={img2} alt="Mustafa Kamal Atatürk" />
+                        <LazyLoadImage
+                            alt={'Mustafa Kamal Atatürk'}
+                            effect="blur"
+                            wrapperProps={{
+                                style: { transitionDelay: "300ms" },
+                            }}
+                            src={img2} />
                     </div>
                 </div>
             </div>
