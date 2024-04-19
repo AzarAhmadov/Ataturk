@@ -59,8 +59,9 @@ const Hero: FC = () => {
                                     animate={{ opacity: 1 }}
                                     transition={{
                                         duration: 1,
-                                        delay: i / 7
+                                        delay: i / 4
                                     }}
+                                    
                                     key={i}
                                 >
                                     {el}{" "}

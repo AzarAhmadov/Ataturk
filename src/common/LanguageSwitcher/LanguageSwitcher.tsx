@@ -18,9 +18,11 @@ const LanguageSwitcher: FC = () => {
         }
     }, [])
 
+
     const handleChangeLanguage = async (lng: string) => {
         await i18n.changeLanguage(lng);
         localStorage.setItem('selectedLanguage', lng);
+        window.location.reload()
     };
 
     return (
