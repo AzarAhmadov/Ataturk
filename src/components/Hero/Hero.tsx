@@ -11,10 +11,10 @@ const Hero: FC = () => {
     const titleTranslation = t("title_hero");
     const Title = titleTranslation.split(" ");
 
-    const middleTranslation = t("title_middle");
+    const middleTranslation = t("title_hero_middle");
     const MiddleText = middleTranslation.split(" ");
 
-    const bottomTranslation = t("title_bottom");
+    const bottomTranslation = t("title_hero_bottom");
     const BottomText = bottomTranslation.split(" ");
 
     return (
