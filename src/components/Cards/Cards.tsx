@@ -1,6 +1,9 @@
 import { FC } from 'react'
 import { NavLink } from 'react-router-dom'
 import { motion } from "framer-motion";
+import BattlesImg from '../../../public/images/battles.jpeg'
+import LifeImg from '../../../public/images/life.jpeg'
+import FamilysImg from '../../../public/images/family.jpeg'
 
 const Cards: FC = () => {
     return (
@@ -11,7 +14,7 @@ const Cards: FC = () => {
                         className="card"
                         initial={{
                             opacity: 0,
-                            x: 20
+                            x: 25
                         }}
                         whileInView={{
                             opacity: 1,
@@ -23,7 +26,7 @@ const Cards: FC = () => {
                         viewport={{ once: true }}
                     >
                         <NavLink to={'/Ataturk/battles'}>
-                            <img loading='lazy' src="https://i.pinimg.com/originals/1d/55/0d/1d550d819cec84dae8db96670b6557eb.jpg" alt={'Savaşları'} />
+                            <img loading='lazy' src={BattlesImg} alt={`Atatürk'ün Döyüşləri`} />
                             Döyüşləri
                         </NavLink>
                     </motion.div>
@@ -32,18 +35,18 @@ const Cards: FC = () => {
                     <motion.div
                         className="card"
                         initial={{
-                            opacity: 0,
+                            scale: 0.93
                         }}
                         whileInView={{
-                            opacity: 1,
+                            scale: 1,
                             transition: {
-                                duration: 1
+                                duration: 2
                             }
                         }}
                         viewport={{ once: true }}
                     >
                         <NavLink to={'/Ataturk/life'}>
-                            <img loading='lazy' src="https://im.haberturk.com/2020/11/09/2864508_84858c561431b84ce7655b9686fca86d_640x640.jpg" alt={'Savaşları'} />
+                            <img loading='lazy' src={LifeImg} alt={`Atatürk'ün həyatı`} />
                             Həyatı
                         </NavLink>
                     </motion.div>
@@ -52,20 +55,18 @@ const Cards: FC = () => {
                     <motion.div
                         className="card"
                         initial={{
-                            opacity: 0,
-                            x: -20
+                            x: -25
                         }}
                         whileInView={{
-                            opacity: 1,
                             x: 0,
                             transition: {
-                                duration: 1
+                                duration: 2
                             }
                         }}
                         viewport={{ once: true }}
                     >
                         <NavLink to={'/Ataturk/family'}>
-                            <img loading='lazy' src="https://i.pinimg.com/originals/8d/a3/46/8da34624c547972db9329337a2cf71c1.jpg" alt={'Savaşları'} />
+                            <img loading='lazy' src={FamilysImg} alt={`Atatürk'ün ailəsi`} />
                             Ailəsi
                         </NavLink>
                     </motion.div>

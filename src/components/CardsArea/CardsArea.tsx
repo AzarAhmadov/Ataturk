@@ -6,8 +6,6 @@ import { motion } from "framer-motion";
 const CardsArea: FC = () => {
     return (
         <section id='About' className='cards-area'>
-            <img src={signature} alt={'imza'} />
-            <Cards />
             <motion.div
                 className="card"
                 initial={{
@@ -18,7 +16,27 @@ const CardsArea: FC = () => {
                     opacity: 1,
                     scale: 1,
                     transition: {
-                        duration: 1
+                        duration: 2
+                    }
+                }}
+                viewport={{ once: true }}
+            >
+                <img src={signature} alt={'imza'} />
+            </motion.div>
+
+            <Cards />
+
+            <motion.div
+                className="card"
+                initial={{
+                    opacity: 0,
+                    scale: 0.90,
+                }}
+                whileInView={{
+                    opacity: 1,
+                    scale: 1,
+                    transition: {
+                        duration: 2
                     }
                 }}
                 viewport={{ once: true }}
@@ -28,7 +46,7 @@ const CardsArea: FC = () => {
                     ancaq Türkiyə Cümhuriyyəti əbədi olaraq yaşayacaqdır"
                 </p>
             </motion.div>
-        </section>
+        </section >
     )
 }
 
