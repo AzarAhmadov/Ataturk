@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, memo } from 'react'
 import { TopDescriptionProps } from '../../types/types'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -46,4 +46,4 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
     )
 }
 
-export default TopDescription
+export default memo(TopDescription)

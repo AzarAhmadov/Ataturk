@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, memo } from 'react'
 import { HistoryProps } from '../../types/types'
 
 const Title: FC<HistoryProps> = ({ title }) => {
@@ -9,4 +9,4 @@ const Title: FC<HistoryProps> = ({ title }) => {
     )
 }
 
-export default Title
+export default memo(Title)
