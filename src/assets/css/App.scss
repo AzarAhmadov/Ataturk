@@ -501,7 +501,7 @@ main {
 
 .up-btn {
   position: fixed;
-  right: 20px;
+  right: 15px;
   width: 40px;
   height: 40px;
   background: red;
@@ -511,7 +511,7 @@ main {
   visibility: hidden;
   opacity: 0;
   transition: 400ms all;
-  bottom: 50px;
+  bottom: 100px;
   cursor: pointer;
 
   &:hover {
@@ -520,7 +520,7 @@ main {
 
   &.active {
     visibility: visible;
-    bottom: 70px;
+    bottom: 62px;
     opacity: 1;
   }
 
@@ -762,8 +762,8 @@ main {
 
 .lng {
   position: fixed;
-  bottom: 70px;
-  left: 20px;
+  bottom: 62px;
+  left: 15px;
   z-index: 101;
 
   .lang-icon {
@@ -982,7 +982,7 @@ main {
     padding-bottom: 0;
 
     .text {
-      padding: 25px 10px 15px;
+      padding: 40px 10px 0px;
       font-size: 17px;
     }
 

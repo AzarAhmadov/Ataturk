@@ -421,7 +421,7 @@ main div:last-child .history-detail .history-text {
 
 .up-btn {
   position: fixed;
-  right: 20px;
+  right: 15px;
   width: 40px;
   height: 40px;
   background: red;
@@ -431,7 +431,7 @@ main div:last-child .history-detail .history-text {
   visibility: hidden;
   opacity: 0;
   transition: 400ms all;
-  bottom: 50px;
+  bottom: 100px;
   cursor: pointer;
 }
 .up-btn:hover {
@@ -439,7 +439,7 @@ main div:last-child .history-detail .history-text {
 }
 .up-btn.active {
   visibility: visible;
-  bottom: 70px;
+  bottom: 62px;
   opacity: 1;
 }
 .up-btn svg {
@@ -655,8 +655,8 @@ main div:last-child .history-detail .history-text {
 
 .lng {
   position: fixed;
-  bottom: 70px;
-  left: 20px;
+  bottom: 62px;
+  left: 15px;
   z-index: 101;
 }
 .lng .lang-icon {
@@ -818,7 +818,7 @@ main div:last-child .history-detail .history-text {
     padding-bottom: 0;
   }
   .cards-area .text {
-    padding: 25px 10px 15px;
+    padding: 40px 10px 0px;
     font-size: 17px;
   }
   .cards-area img {
