@@ -33,7 +33,9 @@ export const router = createBrowserRouter([
                 </Container>
                 <MobileMenu />
                 <ScroolBtn />
-            </>,
+            </>
+
+        ,
     },
     {
         path: "/Ataturk/life",
