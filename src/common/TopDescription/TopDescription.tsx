@@ -9,8 +9,8 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
         <section className='top-detail'>
             <div className="row">
                 <motion.div
-                    initial={{ opacity: 0, x: 10 }}
-                    animate={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1 }}
                     key={title}
                 >
