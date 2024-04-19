@@ -14,7 +14,10 @@ import LanguageSwitcher from '../common/LanguageSwitcher/LanguageSwitcher';
 export const router = createBrowserRouter([
     {
         path: "/",
-        element: <App />,
+        element: <>
+            <App />
+            <LanguageSwitcher />
+        </>,
         errorElement: <ErrorPage />,
     },
     {

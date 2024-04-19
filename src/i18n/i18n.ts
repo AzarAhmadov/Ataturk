@@ -5,11 +5,11 @@ import translationAZ from "./translations/az.json";
 import translationTR from "./translations/tr.json";
 
 const resources = {
-    en: {
-        translation: translationEN,
-    },
     az: {
         translation: translationAZ,
+    },
+    en: {
+        translation: translationEN,
     },
     tr: {
         translation: translationTR,
