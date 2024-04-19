@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import Video from '../../../public/video/Ataturk.mp4'
+import Video from '../../../public/video/AtaturkClip.mp4'
 
 const BackVideo: FC = () => {
 
