@@ -21,7 +21,6 @@ const LanguageSwitcher: FC = () => {
     const handleChangeLanguage = async (lng: string) => {
         await i18n.changeLanguage(lng);
         localStorage.setItem('selectedLanguage', lng);
-        window.location.reload()
     };
 
     return (
@@ -37,13 +36,13 @@ const LanguageSwitcher: FC = () => {
             {
                 <div className={`lng-list ${show ? 'active' : null}`}>
                     <ul>
-                        <li>
+                        <li onClick={ShowHandle}>
                             <button className={localStorage.getItem('selectedLanguage') === 'az' ? 'active' : ''} onClick={() => handleChangeLanguage('az')}> 🇦🇿 Azərbaycanca</button>
                         </li>
-                        <li>
+                        <li onClick={ShowHandle}>
                             <button className={localStorage.getItem('selectedLanguage') === 'tr' ? 'active' : ''} onClick={() => handleChangeLanguage('tr')}> 🇹🇷 Türkçe</button>
                         </li>
-                        <li>
+                        <li onClick={ShowHandle}>
                             <button className={localStorage.getItem('selectedLanguage') === 'en' ? 'active' : ''} onClick={() => handleChangeLanguage('en')}> 🇺🇸 English</button>
                         </li>
                     </ul>
