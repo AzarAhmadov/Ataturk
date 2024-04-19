@@ -439,7 +439,7 @@ main div:last-child .history-detail .history-text {
 }
 .up-btn.active {
   visibility: visible;
-  bottom: 62px;
+  bottom: 67px;
   opacity: 1;
 }
 .up-btn svg {
@@ -655,7 +655,7 @@ main div:last-child .history-detail .history-text {
 
 .lng {
   position: fixed;
-  bottom: 62px;
+  bottom: 67px;
   left: 15px;
   z-index: 101;
 }
