@@ -27,6 +27,7 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
                             wrapperProps={{
                                 style: { transitionDelay: "200ms" },
                             }}
+                            key={img1}
                             src={img1}
                         />
                     </div>
@@ -37,6 +38,7 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
                             wrapperProps={{
                                 style: { transitionDelay: "200ms" },
                             }}
+                            key={img2}
                             src={img2}
                         />
                     </div>
