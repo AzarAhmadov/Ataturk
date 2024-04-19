@@ -1,6 +1,7 @@
-import { FC, useEffect } from 'react'
+import { FC, useEffect, lazy, Suspense } from 'react'
 import Hero from '../../components/Hero/Hero'
-import CardsArea from '../../components/CardsArea/CardsArea'
+import Spinner from '../../components/Spinner/Spinner';
+const CardsArea = lazy(() => import('../../components/CardsArea/CardsArea'));
 
 const Home: FC = () => {
 
@@ -11,7 +12,9 @@ const Home: FC = () => {
     return (
         <>
             <Hero />
-            <CardsArea />
+            <Suspense fallback={<Spinner />}>
+                <CardsArea />
+            </Suspense>
         </>
     )
 }
