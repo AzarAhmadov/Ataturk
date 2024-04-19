@@ -27,7 +27,8 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
                             wrapperProps={{
                                 style: { transitionDelay: "300ms" },
                             }}
-                            src={img1} />
+                            src={img1}
+                        />
                     </div>
                     <div>
                         <LazyLoadImage
@@ -36,7 +37,8 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
                             wrapperProps={{
                                 style: { transitionDelay: "300ms" },
                             }}
-                            src={img2} />
+                            src={img2}
+                        />
                     </div>
                 </div>
             </div>

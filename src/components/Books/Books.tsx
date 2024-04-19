@@ -2,6 +2,7 @@ import { FC, useState } from 'react'
 import { BooksData } from '../../data/data'
 import { BookProps } from '../../types/types'
 import { lazy } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 const Slide = lazy(() => import('../Slide/Slide'));
 
 const Books: FC = () => {
@@ -26,7 +27,14 @@ const Books: FC = () => {
                 {BooksData.map((book, index) => (
                     <div key={index} onClick={() => SetOpen(!open)}>
                         <li key={index} onClick={() => Handlebook(book)}>
-                            <img loading='lazy' src={book.slide_img} alt={book.slide_txt} />
+                            <LazyLoadImage
+                                alt={book.slide_txt}
+                                effect="blur"
+                                wrapperProps={{
+                                    style: { transitionDelay: "300ms" },
+                                }}
+                                src={book.slide_img}
+                            />
                             <h4>{book.slide_txt}</h4>
                         </li>
                     </div>
