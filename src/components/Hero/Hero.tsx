@@ -1,13 +1,21 @@
 import { FC } from 'react'
+import HeroImg from '../../../public/images/Hero.jpeg'
 import Container from '../Container/Container'
 import BackVideo from '../BackVideo/BackVideo'
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 const Hero: FC = () => {
 
-    const Title = "Mustafa Kemal Atatürk".split(" ");
-    const MiddleText = "Türkiyə Cümhuriyyəti öndəri".split(" ");
-    const BottomText = " O, 57 illik həyatına 11 müharibə, 24 medal, 7 orden, 13 kitab, 1 ölkə və milyonlarla azad insan sığdıran böyük hərbçi, siyasət və dövlət xadimidir. Sevgi, hörmət, minnət və həsrətlə...".split(" ");
+    const { t } = useTranslation();
+    const titleTranslation = t("title_hero");
+    const Title = titleTranslation.split(" ");
+
+    const middleTranslation = t("title_middle");
+    const MiddleText = middleTranslation.split(" ");
+
+    const bottomTranslation = t("title_bottom");
+    const BottomText = bottomTranslation.split(" ");
 
     return (
         <Container>
@@ -67,7 +75,7 @@ const Hero: FC = () => {
                         transition={{ duration: 1 }}
                     >
                         <motion.img
-                            src="https://agm.org.tr/wp-content/uploads/2021/12/1-2.jpg"
+                            src={HeroImg}
                             alt="Mustafa Kemal Atatürk"
                             initial={{ scale: 0.5 }}
                             animate={{ scale: 1 }}
