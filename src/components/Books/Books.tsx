@@ -19,7 +19,6 @@ const Books: FC = () => {
         SetOpen(false)
         setCurrentData(undefined)
     }
-
     return (
         <section>
 

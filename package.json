@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "@types/react-lazy-load-image-component": "^1.6.4",
     "framer-motion": "^11.1.5",
+    "i18next": "^23.11.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^14.1.0",
     "react-lazy-load-image-component": "^1.6.0",
     "react-loader-spinner": "^6.1.6",
     "react-router-dom": "^6.22.3",

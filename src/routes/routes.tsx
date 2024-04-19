@@ -9,6 +9,7 @@ import LifeScreen from '../pages/LifeScreen/LifeScreen';
 import FamilyScreen from '../pages/FamilyScreen/FamilyScreen';
 import ScroolBtn from '../common/ScroolBtn/ScroolBtn';
 import MobileMenu from '../components/MobileMenu/MobileMenu';
+import LanguageSwitcher from '../common/LanguageSwitcher/LanguageSwitcher';
 
 export const router = createBrowserRouter([
     {
@@ -31,6 +32,7 @@ export const router = createBrowserRouter([
                     />
                     <BattlesScreen />
                 </Container>
+                <LanguageSwitcher />
                 <MobileMenu />
                 <ScroolBtn />
             </>
@@ -52,6 +54,7 @@ export const router = createBrowserRouter([
                     />
                     <LifeScreen />
                 </Container>
+                <LanguageSwitcher />
                 <MobileMenu />
                 <ScroolBtn />
             </>
@@ -72,6 +75,7 @@ export const router = createBrowserRouter([
                     />
                     <FamilyScreen />
                 </Container>
+                <LanguageSwitcher />
                 <MobileMenu />
                 <ScroolBtn />
             </>
