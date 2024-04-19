@@ -1,7 +1,8 @@
 import { FC, useState } from 'react'
 import { BooksData } from '../../data/data'
-import Slide from '../Slide/Slide'
 import { BookProps } from '../../types/types'
+import { lazy } from 'react';
+const Slide = lazy(() => import('../Slide/Slide'));
 
 const Books: FC = () => {
 
@@ -23,7 +24,7 @@ const Books: FC = () => {
 
             <ul className='books-list'>
                 {BooksData.map((book, index) => (
-                    <div onClick={() => SetOpen(!open)}>
+                    <div key={index} onClick={() => SetOpen(!open)}>
                         <li key={index} onClick={() => Handlebook(book)}>
                             <img loading='lazy' src={book.slide_img} alt={book.slide_txt} />
                             <h4>{book.slide_txt}</h4>

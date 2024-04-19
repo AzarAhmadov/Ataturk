@@ -589,6 +589,12 @@ header .header-row ul li a.active {
   width: 340px;
 }
 
+.spinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 /* Responsive */
 @media only screen and (max-width: 992px) {
   .slide .container .close {
