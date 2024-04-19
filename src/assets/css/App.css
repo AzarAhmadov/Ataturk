@@ -47,17 +47,14 @@ body {
   body .top-detail .row .bottom-txt {
     color: rgba(255, 255, 255, 0.8392156863);
   }
-  body .battles:last-child .battles-detail {
-    border-bottom: none;
-  }
-  body .battles .battles-detail {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.231372549);
-  }
   body .mobile-menu {
     background-color: #252424;
   }
   body .books-list li {
     border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  body .history .history-detail .history-text {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   }
 }
 @keyframes Image {
@@ -323,19 +320,21 @@ header .header-row ul li a.active {
   background: red;
 }
 
-.battles {
+.history {
   padding-bottom: 20px;
 }
-.battles:last-child .battles-detail {
+.history:last-child .history-detail {
   border-bottom: none;
 }
-.battles .battles-detail {
+.history .history-detail {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   flex-direction: column;
 }
-.battles .battles-detail .img-area {
+.history .history-detail .history-text {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.history .history-detail .img-area {
   height: 300px;
   width: 500px;
   -o-object-fit: cover;
@@ -344,20 +343,20 @@ header .header-row ul li a.active {
   overflow: hidden;
   margin-bottom: 22px;
 }
-.battles .battles-detail .img-area img {
+.history .history-detail .img-area img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   animation: Image 10s ease-in-out infinite alternate;
 }
-.battles .battles-detail p {
+.history .history-detail p {
   font-size: 19px;
   line-height: 32px;
   padding-bottom: 20px;
   font-family: "Nunito Sans", sans-serif;
 }
-.battles .battles-detail p:last-child {
+.history .history-detail p:last-child {
   padding-bottom: 13px;
 }
 
@@ -773,11 +772,11 @@ header .header-row ul li a.active {
   .mobile-menu {
     display: block;
   }
-  .battles .battles-detail .img-area {
+  .history .history-detail .img-area {
     height: 220px;
     width: 100%;
   }
-  .battles .battles-detail p {
+  .history .history-detail p {
     font-size: 16px;
     line-height: 30px;
     padding-bottom: 13px;
