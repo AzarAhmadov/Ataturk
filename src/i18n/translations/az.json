@@ -1,6 +1,15 @@
 {
-    "title_hero": "Mustafa Kamal Atatürk",
-    "title_hero_middle": "Türkiyə Cümhuriyyəti Qurucusu",
-    "title_hero_bottom": "O, 57 illik həyatına 11 müharibə, 24 medal, 7 orden, 13 kitab, 1 ölkə və milyonlarla azad insan sığdıran böyük hərbçi, siyasət və dövlət xadimidir. Sevgi, hörmət, minnət və həsrətlə..."
-
+    "hero": {
+        "top_title": "Mustafa Kamal Atatürk",
+        "middle": "Türkiyə Cümhuriyyəti Qurucusu",
+        "bottom": "O, 57 illik həyatına 11 müharibə, 24 medal, 7 orden, 13 kitab, 1 ölkə və milyonlarla azad insan sığdıran böyük hərbçi, siyasət və dövlət xadimidir. Sevgi, hörmət, minnət və həsrətlə..."
+    },
+    "about_cards": {
+        "battles": "Döyüşləri",
+        "life": "Həyatı",
+        "family": "Ailəsi"
+    },
+    "words": {
+        "text": "Mənim naciz bədənim bir gün torpaq olacaqdır, ancaq Türkiyə Cümhuriyyəti əbədi olaraq yaşayacaqdır."
+    }
 }

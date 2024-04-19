@@ -8,13 +8,13 @@ import { useTranslation } from 'react-i18next';
 const Hero: FC = () => {
 
     const { t } = useTranslation();
-    const titleTranslation = t("title_hero");
+    const titleTranslation = t("hero.top_title");
     const Title = titleTranslation.split(" ");
 
-    const middleTranslation = t("title_hero_middle");
+    const middleTranslation = t("hero.middle");
     const MiddleText = middleTranslation.split(" ");
 
-    const bottomTranslation = t("title_hero_bottom");
+    const bottomTranslation = t("hero.bottom");
     const BottomText = bottomTranslation.split(" ");
 
     return (

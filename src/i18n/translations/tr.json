@@ -1,5 +1,15 @@
 {
-    "title_hero": "Mustafa Kemal Atatürk",
-    "title_hero_middle": "Türkiye Cümhuriyyeti Kurucusu",
-    "title_hero_bottom": "O, 57 yıllık ömrüne 11 savaş, 24 madalya, 7 nişan, 13 kitap, 1 ülke ve milyonlarca özgür insan sığdıran büyük bir asker, siyaset ve devlet adamıdır.Sevgi, saygı, minnet ve özlemle...."
+    "hero": {
+        "top_title": "Mustafa Kemal Atatürk",
+        "middle": "Türkiye Cümhuriyyeti Kurucusu",
+        "bottom": "O, 57 yıllık ömrüne 11 savaş, 24 madalya, 7 nişan, 13 kitap, 1 ülke ve milyonlarca özgür insan sığdıran büyük bir asker, siyaset ve devlet adamıdır.Sevgi, saygı, minnet ve özlemle...."
+    },
+    "about_cards": {
+        "battles": "Savaşları",
+        "life": "Hayatı",
+        "family": "Ailesi"
+    },
+    "words": {
+        "text": "Benim naçiz vücudum elbet bir gün toprak olacaktır, ancak Türkiye Cumhuriyeti ilelebet payidar kalacaktır."
+    }
 }

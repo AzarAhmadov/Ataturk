@@ -1,5 +1,15 @@
 {
-    "title_hero": "Mustafa Kemal Atatürk",
-    "title_hero_middle": "Founder of the Republic of Turkey",
-    "title_hero_bottom": "He is a great soldier, politician and statesman who fit 11 wars, 24 medals, 7 decorations, 13 books, 1 country and millions of free people into his 57-year life. With love, respect, gratitude and longing..."
+    "hero": {
+        "top_title": "Mustafa Kemal Atatürk",
+        "middle": "Founder of the Republic of Turkey",
+        "bottom": "He is a great soldier, politician and statesman who fit 11 wars, 24 medals, 7 decorations, 13 books, 1 country and millions of free people into his 57-year life. With love, respect, gratitude and longing..."
+    },
+    "about_cards": {
+        "battles": "Battles",
+        "life": "His life",
+        "family": "Family"
+    },
+    "words": {
+        "text": "My humble body will one day become soil, but the Republic of Turkey will live on forever."
+    }
 }
