@@ -874,7 +874,7 @@ header {
   }
 
   .cards-area {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 0;
 
     .text {
@@ -913,87 +913,87 @@ header {
 
   body {
     padding-bottom: 40px;
-  }
 
-  header {
-    position: relative;
+    header {
+      position: relative;
 
-    .header-row {
-      justify-content: center;
+      .header-row {
+        justify-content: center;
 
-      ul {
-        display: none;
+        ul {
+          display: none;
+        }
       }
     }
-  }
 
-  .mobile-menu {
-    display: block;
-  }
+    .mobile-menu {
+      display: block;
+    }
 
-  .history {
-    .history-detail {
-      .img-area {
-        height: 220px;
-        width: 100%;
-      }
+    .history {
+      .history-detail {
+        .img-area {
+          height: 220px;
+          width: 100%;
+        }
 
-      p {
-        font-size: 16px;
-        line-height: 30px;
-        padding-bottom: 13px;
+        p {
+          font-size: 16px;
+          line-height: 30px;
+          padding-bottom: 13px;
+        }
       }
     }
-  }
 
-  .books-list {
-    grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 45px;
+    .books-list {
+      grid-template-columns: repeat(2, 1fr);
+      padding-bottom: 45px;
 
-    li {
-      height: 290px;
+      li {
+        height: 290px;
 
-      h4 {
-        font-size: 14px;
+        h4 {
+          font-size: 14px;
+        }
       }
     }
-  }
 
-  .top-detail {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    .top-detail {
+      padding-top: 20px;
+      padding-bottom: 40px;
 
-    .row {
-      gap: 20px;
+      .row {
+        gap: 20px;
 
-      .img-row {
-        div {
-          width: 150px;
-          height: 200px;
+        .img-row {
+          div {
+            width: 150px;
+            height: 200px;
+          }
+        }
+
+        h2 {
+          font-size: 23px;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        .bottom-txt {
+          font-size: 14px;
+          line-height: 23px;
         }
       }
 
-      h2 {
-        font-size: 23px;
-      }
+      .img-row {
+        gap: 12px;
+        display: flex;
 
-      p {
-        font-size: 16px;
-      }
-
-      .bottom-txt {
-        font-size: 14px;
-        line-height: 23px;
-      }
-    }
-
-    .img-row {
-      gap: 12px;
-      display: flex;
-
-      div {
-        height: 270px !important;
-        width: 170px !important;
+        div {
+          height: 270px !important;
+          width: 170px !important;
+        }
       }
     }
   }

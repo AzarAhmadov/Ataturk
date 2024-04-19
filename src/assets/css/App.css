@@ -730,7 +730,7 @@ header .header-row ul li a.active {
     line-height: 25px;
   }
   .cards-area {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 0;
   }
   .cards-area .text {
@@ -760,63 +760,63 @@ header .header-row ul li a.active {
   body {
     padding-bottom: 40px;
   }
-  header {
+  body header {
     position: relative;
   }
-  header .header-row {
+  body header .header-row {
     justify-content: center;
   }
-  header .header-row ul {
+  body header .header-row ul {
     display: none;
   }
-  .mobile-menu {
+  body .mobile-menu {
     display: block;
   }
-  .history .history-detail .img-area {
+  body .history .history-detail .img-area {
     height: 220px;
     width: 100%;
   }
-  .history .history-detail p {
+  body .history .history-detail p {
     font-size: 16px;
     line-height: 30px;
     padding-bottom: 13px;
   }
-  .books-list {
+  body .books-list {
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 45px;
   }
-  .books-list li {
+  body .books-list li {
     height: 290px;
   }
-  .books-list li h4 {
+  body .books-list li h4 {
     font-size: 14px;
   }
-  .top-detail {
+  body .top-detail {
     padding-top: 20px;
     padding-bottom: 40px;
   }
-  .top-detail .row {
+  body .top-detail .row {
     gap: 20px;
   }
-  .top-detail .row .img-row div {
+  body .top-detail .row .img-row div {
     width: 150px;
     height: 200px;
   }
-  .top-detail .row h2 {
+  body .top-detail .row h2 {
     font-size: 23px;
   }
-  .top-detail .row p {
+  body .top-detail .row p {
     font-size: 16px;
   }
-  .top-detail .row .bottom-txt {
+  body .top-detail .row .bottom-txt {
     font-size: 14px;
     line-height: 23px;
   }
-  .top-detail .img-row {
+  body .top-detail .img-row {
     gap: 12px;
     display: flex;
   }
-  .top-detail .img-row div {
+  body .top-detail .img-row div {
     height: 270px !important;
     width: 170px !important;
   }
