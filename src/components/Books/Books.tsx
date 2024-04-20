@@ -21,7 +21,6 @@ const Books: FC = () => {
     }
     return (
         <section>
-
             <ul className='books-list'>
                 {BooksData.map((book, index) => (
                     <div key={index} onClick={() => SetOpen(!open)}>

@@ -117,7 +117,7 @@ export const Battles = [
         }
     },
     {
-        title: "Doğu (Kafkas) Cephesiı",
+        title: "Doğu (Kafkas) Cephesi",
         img: "https://iasbh.tmgrup.com.tr/5da3f2/650/344/0/0/720/377?u=https://isbh.tmgrup.com.tr/sbh/2020/12/13/1607858251827.jpg",
         text: {
             content:

@@ -45,7 +45,23 @@ const LifeScreen: FC = () => {
                         </div>
                     ))
                 }
-                <Title title={t('life.book_title')} />
+                <motion.div
+                    className="card"
+                    initial={{
+                        opacity: 0,
+                        scale: 0.90,
+                    }}
+                    whileInView={{
+                        opacity: 1,
+                        scale: 1,
+                        transition: {
+                            duration: 2
+                        }
+                    }}
+                    viewport={{ once: false }}
+                >
+                    <Title title={t('life.book_title')} />
+                </motion.div>
                 <Books />
             </Suspense>
         </main>
