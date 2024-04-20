@@ -49,9 +49,9 @@ export const router = createBrowserRouter([
                 <Header />
                 <Container>
                     <TopDescription
-                        title='Atatürk’ün Hayatı'
-                        desc1='Mustafa Kemal Atatürk (1881-1938)'
-                        desc2='Beni görmek demek mutlaka yüzümü görmek demek değildir. Benim fikirlerimi, benim duygularımı anlıyorsanız ve hissediyorsanız bu yeterlidir.'
+                        title={'life.title'}
+                        desc1={'life.middle_text'}
+                        desc2={'life.bottom_text'}
                         img1='https://upload.wikimedia.org/wikipedia/commons/a/a1/Atat%C3%BCrk_%28renkli%29.jpg'
                         img2='https://images.saatchiart.com/saatchi/1848335/art/10488713/9551205-OQYGLFKS-7.jpg'
                     />

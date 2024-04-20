@@ -3,6 +3,7 @@ const History = lazy(() => import('../../components/History/History'));
 import Title from '../../common/Title/Title'
 import Spinner from '../../components/Spinner/Spinner';
 import { Battles } from '../../data/data';
+import { motion } from "framer-motion";
 
 const BattlesScreen: FC = () => {
 
@@ -16,7 +17,23 @@ const BattlesScreen: FC = () => {
                 {
                     Battles.map((el, idx) => (
                         <div key={idx}>
-                            <Title title={el.title} />
+                            <motion.div
+                                className="card"
+                                initial={{
+                                    opacity: 0,
+                                    scale: 0.90,
+                                }}
+                                whileInView={{
+                                    opacity: 1,
+                                    scale: 1,
+                                    transition: {
+                                        duration: 2
+                                    }
+                                }}
+                                viewport={{ once: false }}
+                            >
+                                <Title title={el.title} />
+                            </motion.div>
                             <History
                                 text={el.text.content}
                                 img={el.img}

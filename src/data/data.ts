@@ -223,7 +223,6 @@ export const Battles = [
 
 export const Life = [
     {
-        title:"Mustafa Kemal Atatürk’ün Hayatı",
         img: "https://i.pinimg.com/originals/c0/ba/9c/c0ba9c64ebda47bc4d3f9c49fe6cc3da.gif",
         text: {
             content:

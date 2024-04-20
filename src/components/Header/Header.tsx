@@ -1,8 +1,12 @@
 import { FC } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import Container from '../Container/Container'
+import { useTranslation } from 'react-i18next'
 
 const Header: FC = () => {
+
+    const { t } = useTranslation()
+
     return (
         <header>
             <Container>
@@ -13,21 +17,19 @@ const Header: FC = () => {
                     <ul>
                         <li>
                             <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to={'/Ataturk/battles'}>
-                                Döyüşləri
+                                {t('about_cards.battles')}
                             </NavLink>
                         </li>
                         <li>
                             <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to={'/Ataturk/life'}>
-                                Həyatı
+                                {t('about_cards.life')}
                             </NavLink>
                         </li>
                         <li>
                             <NavLink className={({ isActive }) => (isActive ? 'active' : '')} to={'/Ataturk/family'}>
-                                Ailəsi
+                                {t('about_cards.family')}
                             </NavLink>
                         </li>
-                        
-                        <div className="anime"></div>
                     </ul>
                 </div>
             </Container>

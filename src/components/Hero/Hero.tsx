@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next';
 const Hero: FC = () => {
 
     const { t } = useTranslation();
+
     const titleTranslation = t("hero.top_title");
     const Title = titleTranslation.split(" ");
 
@@ -59,9 +60,8 @@ const Hero: FC = () => {
                                     animate={{ opacity: 1 }}
                                     transition={{
                                         duration: 1,
-                                        delay: i / 4
+                                        delay: i / 10
                                     }}
-                                    
                                     key={i}
                                 >
                                     {el}{" "}

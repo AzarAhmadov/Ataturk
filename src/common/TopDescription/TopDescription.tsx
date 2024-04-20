@@ -2,8 +2,11 @@ import { FC, memo } from 'react'
 import { TopDescriptionProps } from '../../types/types'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, img2 }) => {
+
+    const { t } = useTranslation()
 
     return (
         <section className='top-detail'>
@@ -14,15 +17,22 @@ const TopDescription: FC<TopDescriptionProps> = ({ title, desc1, desc2, img1, im
                     transition={{ duration: 1 }}
                     key={title}
                 >
-                    <h2>
-                        {title}
-                    </h2>
-                    <p>
-                        {desc1}
-                    </p>
                     {
-                        desc2 && <p className='bottom-txt'>
-                            {desc2}
+                        title &&
+                        <h2>
+                            {t(title)}
+                        </h2>
+                    }
+                    {
+                        desc1 &&
+                        <p>
+                            {t(desc1)}
+                        </p>
+                    }
+                    {
+                        desc2 &&
+                        <p className='bottom-txt'>
+                            {t(desc2)}
                         </p>
                     }
                 </motion.div>

@@ -11,5 +11,14 @@
     },
     "words": {
         "text": "Mənim naciz bədənim bir gün torpaq olacaqdır, ancaq Türkiyə Cümhuriyyəti əbədi olaraq yaşayacaqdır."
+    },
+    "life": {
+        "title": "Atatürk’ün Həyatı",
+        "middle_text": "Mustafa Kamal Atatürk (1881-1938)",
+        "bottom_text": "Məni görmək mütləq üzümü görmək demək deyil. Əgər mənim fikirlərimi və hisslərimi başa düşürsünüzsə, bu kifayətdir.",
+        "book_title": "Atatürk’ün yazdığı kitablar",
+        "life_text": {
+            "t_1": ""
+        }
     }
 }

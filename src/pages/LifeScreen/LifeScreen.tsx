@@ -4,6 +4,8 @@ import Title from '../../common/Title/Title'
 import Books from '../../components/Books/Books'
 import Spinner from '../../components/Spinner/Spinner';
 import { Life } from '../../data/data';
+import { useTranslation } from 'react-i18next';
+import { motion } from "framer-motion";
 
 const LifeScreen: FC = () => {
 
@@ -11,13 +13,31 @@ const LifeScreen: FC = () => {
         window.scrollTo(0, 0)
     }, [])
 
+    const { t } = useTranslation()
+
     return (
         <main>
             <Suspense fallback={<Spinner />}>
                 {
                     Life.map((el, idx) => (
                         <div key={idx}>
-                            <Title title={el.title} />
+                            <motion.div
+                                className="card"
+                                initial={{
+                                    opacity: 0,
+                                    scale: 0.90,
+                                }}
+                                whileInView={{
+                                    opacity: 1,
+                                    scale: 1,
+                                    transition: {
+                                        duration: 2
+                                    }
+                                }}
+                                viewport={{ once: false }}
+                            >
+                                <Title title={t('life.title')} />
+                            </motion.div>
                             <History
                                 text={el.text.content}
                                 img={el.img}
@@ -25,7 +45,7 @@ const LifeScreen: FC = () => {
                         </div>
                     ))
                 }
-                <Title title={`Mustafa Kemal Atatürk’ün yazdığı kitaplar`} />
+                <Title title={t('life.book_title')} />
                 <Books />
             </Suspense>
         </main>
