@@ -16,6 +16,21 @@
         "title": "Atatürk's life",
         "middle_text": "Mustafa Kemal Atatürk (1881-1938)",
         "bottom_text": "Seeing me does not necessarily mean seeing my face. If you understand my ideas and my feelings thats enough.",
-        "book_title": "Books written by Ataturk"
+        "book_title": "Books written by Ataturk",
+        "life_text": {
+            "t_1": "Mustafa Kemal, born in 1881 in Thessaloniki, was the fourth child of Zübeyde Hanım and Ali Rıza Efendi. Initially starting his education at Hafız Mehmed Efendi Neighborhood School, he later transferred to Şemsi Efendi School due to dissatisfaction with the former.",
+            "t_2": "In 1893, following his father's passing, Mustafa Kemal took a break from his education and spent approximately 5 months with his mother at his uncle's farm in Langaza.",
+            "t_3": "Returning to Thessaloniki after his rural hiatus, Mustafa Kemal continued his education, first at Selanik Mülkiye Rüşdiyesi and then at Selanik Military Rüşdiyesi, where he adopted the name 'Kemal' given by his math teacher.",
+            "t_4": "Completing his middle school education, he proceeded to Manastır Military High School, where his interest in history, literature, and French flourished.",
+            "t_5": "Subsequently, Mustafa Kemal pursued higher education in Istanbul, graduating from the Istanbul Military Academy in 1902 and the War Academy in 1905.",
+            "t_6": "Commencing his career, he completed his internship at the 5th Army in Damascus before assuming roles at the 3rd Army headquarters and later the 3rd Army Thessaloniki 2nd Reserve Division.",
+            "t_7": "In 1911, he volunteered for the Tripolitanian War and later participated in the Balkan Wars, where he played a pivotal role in the recapture of Edirne.",
+            "t_8": "Joining the 19th Division Command during World War I, he distinguished himself in the Gallipoli Campaign, halting the Allied advance.",
+            "t_9": "Post-war, Mustafa Kemal spearheaded the Turkish War of Independence, convening crucial congresses and serving as the President of the Grand National Assembly of Turkey in 1923.",
+            "t_10": "During his presidency, he implemented significant reforms across various sectors, leading Turkey towards modernization and global recognition.",
+            "t_11": "In 1934, he was granted the surname 'Atatürk' by the Grand National Assembly of Turkey.",
+            "t_12": "In his personal life, he married Latife Hanım in 1923, and the couple had a brief marriage until 1925. Additionally, he adopted a boy named Mustafa.",
+            "t_13": "Facing declining health from 1937, Atatürk spent his final days under medical care in Istanbul, passing away on November 10, 1938, at Dolmabahçe Palace."
+        }
     }
 }
