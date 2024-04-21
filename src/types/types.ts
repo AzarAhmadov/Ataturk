@@ -1,5 +1,3 @@
-import { ReactNode } from "react";
-
 export type TopDescriptionProps = {
     title?: string;
     desc1?: string;
@@ -8,11 +6,15 @@ export type TopDescriptionProps = {
     img2: string;
 }
 
+export type LifeText = {
+    [key: string]: string;
+};
+
 export type HistoryProps = {
     title?: string;
-    text?: ReactNode;
+    text?: LifeText[];
     img?: string;
-}
+};
 
 export type BookProps = {
     slide_img: string,

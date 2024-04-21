@@ -1,15 +1,8 @@
 import { FC, memo } from 'react'
 import { HistoryProps } from '../../types/types'
-import sanitizeHtml from "sanitize-html"
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const History: FC<HistoryProps> = ({ img, text }) => {
-
-    const createMarkup = () => {
-        if (typeof text === 'string') {
-            return { __html: sanitizeHtml(text) };
-        }
-    }
 
     return (
         <section className='history'>
@@ -23,7 +16,13 @@ const History: FC<HistoryProps> = ({ img, text }) => {
                         }}
                         src={img} />
                 </div>
-                <div className='history-text' dangerouslySetInnerHTML={createMarkup()} />
+                <div className='history-text'>
+                    {text?.map((el, idx) => (
+                        <p key={idx}>
+                            {Object.values(el)[0]}
+                        </p>
+                    ))}
+                </div>
             </div>
         </section>
     )

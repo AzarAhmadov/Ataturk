@@ -93,7 +93,7 @@ export const Battles = [
             content:
                 `
                 <p>
-                    Türk ordusunun büyük bir azimle savaştığı bir cephe olan Kurtuluş Savaşı Cephesi 31 Mart 1921 senesine kadar sürmüş ve çok kanlı geçmiştir. Mustafa Kemal Bu savaş sonrası 'milletin makus talihini yenen bir savaş olmuştur' şeklinde bir ifade ile bu savaşın önemini anlatmıştır.
+                    {life.life_text.t_1}
                 </p>
             `
         }
@@ -228,7 +228,7 @@ export const Life = [
             content:
                 `
             <p>
-                1881 yılında Selanik’te dünyaya gelen Atatürk’ün babası Ali Rıza Efendi annesi ise Zübeyde Hanım’dır. Zübeyde Hanım ve Ali Rıza Efendi’nin 6 çocuğundan dördüncüsü olan Mustafa Kemal, öğrenim hayatına, önce annesinin de isteğiyle Hafız Mehmed Efendi Mahalle Mektebi’nde başlamış ancak daha sonra, bu okuldan memnun olmaması sebebiyle babası tarafından Şemsi Efendi Mektebi’ne verilmiştir.
+               "life.life_text.t_1"
             </p>
             <p>
                 1893 yılında babası Ali Rıza Efendi’nin vefat etmesi üzerine eğitim hayatına ara vermek zorunda kalan Mustafa Kemal, annesi ile birlikte dayısının Langaza’daki çitliğine gitmiş ve yaklaşık 5 ay kadar burada kalmıştır.
