@@ -889,14 +889,14 @@ header .header-row ul li a.active {
     height: 200px;
   }
   body .top-detail .row h2 {
-    font-size: 23px;
+    font-size: 20px;
   }
   body .top-detail .row p {
-    font-size: 16px;
+    font-size: 14px;
   }
   body .top-detail .row .bottom-txt {
-    font-size: 14px;
-    line-height: 23px;
+    font-size: 13px;
+    line-height: 22px;
   }
   body .top-detail .img-row {
     gap: 12px;

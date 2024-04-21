@@ -26,9 +26,9 @@ export const router = createBrowserRouter([
                 <Header />
                 <Container>
                     <TopDescription
-                        title='Atatürk’ün Qatıldığı Müharibələr'
-                        desc1='Atatürk 1909-1923-cü illər arasında 10 müharibədə iştirak edib'
-                        desc2='Müharibə lazımlı və həyati olmalıdır. Millətin həyatı təhlükəyə məruz qalmazsa, müharibə qətldir '
+                        title={'battles.title'}
+                        desc1={'battles.middle_text'}
+                        desc2={'battles.bottom_text'}
                         img1='https://pbs.twimg.com/media/FAenTbAWQAMuSQd.jpg'
                         img2='https://i.pinimg.com/originals/f3/f4/8f/f3f48f17bee3246b572259dd1b13b2a2.jpg'
                     />
