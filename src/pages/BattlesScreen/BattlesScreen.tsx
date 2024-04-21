@@ -4,6 +4,7 @@ import Title from '../../common/Title/Title'
 import Spinner from '../../components/Spinner/Spinner';
 import { Battles } from '../../data/data';
 import { motion } from "framer-motion";
+import MobileMenu from '../../components/MobileMenu/MobileMenu';
 
 const BattlesScreen: FC = () => {
 
@@ -42,6 +43,7 @@ const BattlesScreen: FC = () => {
                     ))
                 }
             </Suspense>
+            <MobileMenu />
         </main>
     )
 }

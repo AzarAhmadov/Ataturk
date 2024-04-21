@@ -8,7 +8,6 @@ import BattlesScreen from '../pages/BattlesScreen/BattlesScreen';
 import LifeScreen from '../pages/LifeScreen/LifeScreen';
 import FamilyScreen from '../pages/FamilyScreen/FamilyScreen';
 import ScroolBtn from '../common/ScroolBtn/ScroolBtn';
-import MobileMenu from '../components/MobileMenu/MobileMenu';
 import LanguageSwitcher from '../common/LanguageSwitcher/LanguageSwitcher';
 
 export const router = createBrowserRouter([
@@ -36,7 +35,6 @@ export const router = createBrowserRouter([
                     <BattlesScreen />
                 </Container>
                 <LanguageSwitcher />
-                <MobileMenu />
                 <ScroolBtn />
             </>
 
@@ -58,7 +56,6 @@ export const router = createBrowserRouter([
                     <LifeScreen />
                 </Container>
                 <LanguageSwitcher />
-                <MobileMenu />
                 <ScroolBtn />
             </>
         ,
@@ -70,8 +67,8 @@ export const router = createBrowserRouter([
                 <Header />
                 <Container>
                     <TopDescription
-                        title='Atatürk’ün ailəsi'
-                        desc1={`Babası Ali Rıza Efendi, annesi Zübeyde Hanım'dır`}
+                        title={'family.title'}
+                        desc1={'family.middle_text'}
                         desc2=''
                         img1='https://upload.wikimedia.org/wikipedia/commons/4/43/Z%C3%BCbeyde_Han%C4%B1m.jpg'
                         img2='https://upload.wikimedia.org/wikipedia/commons/9/99/Portrait_of_a_volunteer_officer_of_the_Ottoman_Civilian_Battalion.jpg'
@@ -79,7 +76,6 @@ export const router = createBrowserRouter([
                     <FamilyScreen />
                 </Container>
                 <LanguageSwitcher />
-                <MobileMenu />
                 <ScroolBtn />
             </>
         ,

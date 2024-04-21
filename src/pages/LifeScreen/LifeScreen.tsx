@@ -4,8 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { Life } from '../../data/data';
 import Spinner from '../../components/Spinner/Spinner';
 import Title from '../../common/Title/Title';
-import { LifeText } from '../../types/types';
-
+import { HistoryTextType } from '../../types/types';
+import MobileMenu from '../../components/MobileMenu/MobileMenu';
 const History = lazy(() => import('../../components/History/History'));
 const Books = lazy(() => import('../../components/Books/Books'));
 
@@ -16,7 +16,7 @@ const LifeScreen: FC = () => {
 
     const { t } = useTranslation();
 
-    const lifeTexts: LifeText[] = [
+    const lifeTexts: HistoryTextType[] = [
         { t_1: t('life.life_text.t_1') },
         { t_2: t('life.life_text.t_2') },
         { t_3: t('life.life_text.t_3') },
@@ -76,6 +76,7 @@ const LifeScreen: FC = () => {
                 </motion.div>
                 <Books />
             </Suspense>
+            <MobileMenu />
         </main>
     );
 };
