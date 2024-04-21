@@ -35,7 +35,7 @@ const BattlesScreen: FC = () => {
                                 <Title title={el.title} />
                             </motion.div>
                             <History
-                                text={el.text.content}
+                              
                                 img={el.img}
                             />
                         </div>
