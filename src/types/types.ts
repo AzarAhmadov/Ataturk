@@ -6,13 +6,13 @@ export type TopDescriptionProps = {
     img2: string;
 }
 
-export type LifeText = {
+export type HistoryTextType = {
     [key: string]: string;
 };
 
 export type HistoryProps = {
     title?: string;
-    text?: LifeText[];
+    text?: HistoryTextType[];
     img?: string;
 };
 

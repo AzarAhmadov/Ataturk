@@ -37,13 +37,13 @@ const LanguageSwitcher: FC = () => {
                 <div className={`lng-list ${show ? 'active' : null}`}>
                     <ul>
                         <li onClick={ShowHandle}>
-                            <button className={localStorage.getItem('selectedLanguage') === 'az' ? 'active' : ''} onClick={() => handleChangeLanguage('az')}> 🇦🇿 Azərbaycanca</button>
+                            <button className={(i18n.resolvedLanguage === 'az') ? 'active' : ''} onClick={() => handleChangeLanguage('az')}> 🇦🇿 Azərbaycanca</button>
                         </li>
                         <li onClick={ShowHandle}>
-                            <button className={localStorage.getItem('selectedLanguage') === 'tr' ? 'active' : ''} onClick={() => handleChangeLanguage('tr')}> 🇹🇷 Türkçe</button>
+                            <button className={(i18n.resolvedLanguage === 'tr') ? 'active' : ''} onClick={() => handleChangeLanguage('tr')}> 🇹🇷 Türkçe</button>
                         </li>
                         <li onClick={ShowHandle}>
-                            <button className={localStorage.getItem('selectedLanguage') === 'en' ? 'active' : ''} onClick={() => handleChangeLanguage('en')}> 🇺🇸 English</button>
+                            <button className={(i18n.resolvedLanguage === 'en') ? 'active' : ''} onClick={() => handleChangeLanguage('en')}> 🇺🇸 English</button>
                         </li>
                     </ul>
                 </div>

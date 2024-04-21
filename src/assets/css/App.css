@@ -54,7 +54,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
   body .history .history-detail .history-text {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16) !important;
   }
   body .lng-list ul {
     box-shadow: 0 8px 21px 0 rgba(0, 0, 0, 0.16);
@@ -328,10 +328,6 @@ header .header-row ul li a.active {
   background: red;
 }
 
-main div:last-child .history-detail .history-text {
-  border-bottom: none;
-}
-
 .history {
   padding-bottom: 20px;
 }
@@ -341,7 +337,7 @@ main div:last-child .history-detail .history-text {
   flex-direction: column;
 }
 .history .history-detail .history-text {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 .history .history-detail .img-area {
   height: 300px;

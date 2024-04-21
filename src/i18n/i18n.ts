@@ -5,11 +5,11 @@ import translationAZ from "./translations/az.json";
 import translationTR from "./translations/tr.json";
 
 const resources = {
-    en: {
-        translation: translationEN,
-    },
     az: {
         translation: translationAZ,
+    },
+    en: {
+        translation: translationEN,
     },
     tr: {
         translation: translationTR,
@@ -18,7 +18,7 @@ const resources = {
 
 i18n.use(initReactI18next).init({
     resources,
-    lng: "en",
+    lng: "az",
     interpolation: {
         escapeValue: false,
     },

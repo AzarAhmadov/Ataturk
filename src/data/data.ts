@@ -75,7 +75,7 @@ export const Family = [
             content:
                 `
                 <p>
-                    Selânik yerlilerindendi. Uzak dedeleri Vidin'den ayrılarak Serez'de yerleşmişler, oradan da Selânik'e gelmişlerdi. Ali Rıza Efendi, önce Selanik'te evkaf kâtipliği yapmıştır. Atatürk, onu az hatırladığını söylemekle birlikte zekâ ve azmini anar, modern düşünceli bir kimse olduğunu söylerdi. 1876 da Sırbistan'la savaş başladıktan sonra Selanik'te gönüllülerden bir "Asakiri Milliye" taburu kurulmuş ve Ali Efendi orada mülâzımı evvel (Üsteğmen) olmuştur.
+                O, Selanikin yerli sakinlərindən idi. Onun uzaq babaları Vidini tərk edərək Serezdə məskunlaşır və oradan da Selanikə gəlirlər. Əli Rza Əfəndi Selanikdə vəqflər katibi idi. Atatürk, az xatırladığını, zəkasını və qətiyyətini xatırladığını deyərkən, müasir düşüncəli biri olduğunu söylədi. 1876-cı ildə Serbiya ilə müharibə başlayandan sonra Selanikdə könüllülərdən ibarət “Asakiri Milliyə” batalyonu yaradılmış və Əli Əfəndi baş leytenant olmuşdur.
                 </p>
                 <p>
                     II. Abdülhamid'in vehmi üzerine bu ve buna benzer birlikler dağıtıldıktan az sonra Ali Efendi'nin evkaftan çekilip rüsumat memuru olduğu anlaşılıyor. Daha sonra özel hayata atılıp kereste tüccarlığı yapmıştır.

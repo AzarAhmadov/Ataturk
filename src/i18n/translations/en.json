@@ -18,7 +18,7 @@
         "bottom_text": "Seeing me does not necessarily mean seeing my face. If you understand my ideas and my feelings thats enough.",
         "book_title": "Books written by Ataturk",
         "life_text": {
-            "t_1": "Mustafa Kemal, born in 1881 in Thessaloniki, was the fourth child of Zübeyde Hanım and Ali Rıza Efendi. Initially starting his education at Hafız Mehmed Efendi Neighborhood School, he later transferred to Şemsi Efendi School due to dissatisfaction with the former.",
+            "t_1": "Mustafa Kemal, born in 1881 in Thessaloniki, was the fourth child of Mrs. Zübeyde Hanım and Ali Rıza Efendi. Initially starting his education at Hafız Mehmed Efendi Neighborhood School, he later transferred to Şemsi Efendi School due to dissatisfaction with the former.",
             "t_2": "In 1893, following his father's passing, Mustafa Kemal took a break from his education and spent approximately 5 months with his mother at his uncle's farm in Langaza.",
             "t_3": "Returning to Thessaloniki after his rural hiatus, Mustafa Kemal continued his education, first at Selanik Mülkiye Rüşdiyesi and then at Selanik Military Rüşdiyesi, where he adopted the name 'Kemal' given by his math teacher.",
             "t_4": "Completing his middle school education, he proceeded to Manastır Military High School, where his interest in history, literature, and French flourished.",
@@ -31,6 +31,21 @@
             "t_11": "In 1934, he was granted the surname 'Atatürk' by the Grand National Assembly of Turkey.",
             "t_12": "In his personal life, he married Latife Hanım in 1923, and the couple had a brief marriage until 1925. Additionally, he adopted a boy named Mustafa.",
             "t_13": "Facing declining health from 1937, Atatürk spent his final days under medical care in Istanbul, passing away on November 10, 1938, at Dolmabahçe Palace."
+        }
+    },
+    "family": {
+        "title": "Atatürk's Life",
+        "middle_text": "Mustafa Kemal Atatürk (1881-1938)",
+        "mother": "Atatürk's mother",
+        "father": "Atatürk's father ",
+        "family_text_mother": {
+            "t_1": "Mrs. Zübeyde, Atatürk's mother, was the daughter of Feyzullah Aga from the Hacı Sofu family. She was an intelligent, prudent woman, devoted to religion and traditions. She wanted her son to start the neighborhood school with traditional hymns. However, as we will see below, she did not prevent her son from growing up in the manner required by the times, and especially after her husband's death, she tried as much as she could to provide him with a good education.",
+            "t_2": "An example of her prudence and high sense of honor can be seen in the following incident. While they were still in Thessaloniki, when she found out what was going on in a meeting her son had with some of his friends who were working against the rule of Abdul Hamid II, she was afraid of the consequences of working against the sultan, but when Mustafa Kemal told her about it, she understood the problem and said, 'If you have secret things, let me hide them, it is difficult to succeed, it is more natural to perish' and then she said the following:",
+            "t_3": "... my son, if one day, after these things happen, I do not see you with those who have honor and dignity, then I will be sad. I have not studied as much as you, I do not know as much as you do, I would not try to prevent you from doing what you see and understand, but be careful, the main thing is to succeed, try to succeed."
+        },
+        "family_text_father": {
+            "t_1": "He was a native of Thessaloniki. Their distant ancestors left Vidin and settled in Serres, and from there they came to Thessaloniki. Ali Rıza Efendi first worked as a foundation clerk in Thessaloniki. Although Ataturk said that he remembered him little, he remembered his intelligence and determination and said that he was a modern-minded person. After the war with Serbia started in 1876, an 'Asakiri Milliye' battalion was established from volunteers in Thessaloniki and Ali Efendi became a first lieutenant there.",
+            "t_2": "II. After this and similar units were disbanded upon Abdulhamid's delusion, it seems that Ali Efendi retired from the foundations and became a revenue officer. He later started a private life and worked as a timber merchant."
         }
     }
 }

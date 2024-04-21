@@ -32,5 +32,20 @@
             "t_12": "1934 yılında çıkartılan Soyadı Kanunu ile birlikte TBMM tarafından kendisine Atatürk soyadı verilen Mustafa Kemal, özel hayatında ise 1923 yılında Latife Hanım ile evlenmiş ve bu evlilik 1925 yılına kadar sürmüştür. Ayrıca Mustafa Kemal Atatürk Afet, Sabiha, Fikriye, Ülkü, Nebile, Rukiye, Zehra isimli kızları ve Mustafa isminde bir erkek çocuğu evlat edinmiştir.",
             "t_13": "1937 yılından itibaren sağlığı bozulmaya başlayan Atatürk, son günlerini İstanbul’da doktorların gözetimi altında geçirmiş ve 10 Kasım 1938 Perşembe günü sabah 9’u 5 geçe Dolmabahçe Sarayı’nda hayatını kaybetmiştir."
         }
+    },
+    "family": {
+        "title": "Atatürk'ün Hayatı",
+        "middle_text": "Mustafa Kemal Atatürk (1881-1938)",
+        "mother": "Atatürk'ün annesi",
+        "father": "Atatürk'ün babası ",
+        "family_text_mother": {
+            "t_1": "Atatürk'ün annesi Zübeyde Hanım, Hacı Sofu ailesinden Feyzullah Ağa'nın kızıdır. Zeki, sağduyulu, dine ve geleneklere bağlı bir kadındı. Oğlunun mahalle mektebine gelenekten olan ilâhilerle başlamasını istemişti. Ancak aşağıda göreceğimiz gibi oğlunun zamanın gerektirdiği biçimde yetişmesini engellememiş, hele kocası öldükten sonra onun iyi öğretim görmesine elinden geldiği kadar çalışmıştır.",
+            "t_2": "Onun sağduyusu ve taşıdığı yüksek onur duygularının bir örneği aşağıdaki olayda görülür. O, daha Selanik'te bulundukları sırada oğlunun, kendi evinde, II inci Abdülhamit yönetimine karşı çalışan bir takım arkadaşlariyle yaptığı toplantıda nelerle uğraşıldığını öğrenince, padişaha karşı çalışmanın sonuçlarından ürkmüş, ancak Mustafa Kemal'in işi kendisine anlatması üzerine sorunu kavrayıp 'gizli şeyleriniz varsa ben saklayayım, muvaffak olmak zordur, mahvolmak daha tabiidir' dedikten sonra şöyle konuşmuştur:",
+            "t_3": "... evlâdım bir gün bu işler olduktan sonra seni namus ve haysiyet sahibi olanlarla görmezsem işte o zaman meyus olurum. Ben senin kadar okumadım, senin kadar bilmem, seni gördüğün, anladığın şeyleri yapmaktan menetmiye kalkışmam, yalnız dikkat et, esas muvaffak olmaktır, muvaffak olmaya çalış"
+        },
+        "family_text_father": {
+            "t_1": "Selânik yerlilerindendi. Uzak dedeleri Vidin'den ayrılarak Serez'de yerleşmişler, oradan da Selânik'e gelmişlerdi. Ali Rıza Efendi, önce Selanik'te evkaf kâtipliği yapmıştır. Atatürk, onu az hatırladığını söylemekle birlikte zekâ ve azmini anar, modern düşünceli bir kimse olduğunu söylerdi. 1876 da Sırbistan'la savaş başladıktan sonra Selanik'te gönüllülerden bir 'Asakiri Milliye' taburu kurulmuş ve Ali Efendi orada mülâzımı evvel (Üsteğmen) olmuştur.",
+            "t_2": "II. Abdülhamid'in vehmi üzerine bu ve buna benzer birlikler dağıtıldıktan az sonra Ali Efendi'nin evkaftan çekilip rüsumat memuru olduğu anlaşılıyor. Daha sonra özel hayata atılıp kereste tüccarlığı yapmıştır."
+        }
     }
 }
