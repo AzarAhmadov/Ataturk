@@ -68,8 +68,8 @@ export const router = createBrowserRouter([
                 <Container>
                     <TopDescription
                         title={'family.title'}
-                        desc1={'family.middle_text'}
-                        desc2={'family.bottom_text'}
+                        desc1={'family.bottom_text'}
+                        // desc2={'family.bottom_text'}
                         img1='https://upload.wikimedia.org/wikipedia/commons/4/43/Z%C3%BCbeyde_Han%C4%B1m.jpg'
                         img2='https://upload.wikimedia.org/wikipedia/commons/9/99/Portrait_of_a_volunteer_officer_of_the_Ottoman_Civilian_Battalion.jpg'
                     />
