@@ -381,6 +381,10 @@ header .header-row ul li a.active {
   position: relative;
   padding: 5px;
   cursor: pointer;
+  transition: 500ms all;
+}
+.books-list li:hover {
+  transform: scale(0.97);
 }
 .books-list li:hover h4 {
   opacity: 1;
@@ -505,6 +509,7 @@ header .header-row ul li a.active {
   transition: 400ms all;
   visibility: hidden;
   transform: scale(0.95);
+  z-index: 1000;
 }
 .slide.active {
   opacity: 1;
@@ -674,7 +679,7 @@ header .header-row ul li a.active {
 /* Responsive */
 @media only screen and (max-width: 992px) {
   .slide .container .close {
-    top: -20px;
+    top: -50px;
     right: -100px;
   }
   .slide .container .prev {
@@ -738,19 +743,19 @@ header .header-row ul li a.active {
     grid-template-columns: repeat(3, 1fr);
   }
   .slide .container .close {
-    top: -45px;
-    right: 32px;
+    top: -50px;
+    right: 15px;
     width: 35px;
     height: 35px;
     padding: 6px;
   }
   .slide .container .prev {
-    left: -15px;
+    left: -35px;
     width: 35px;
     height: 35px;
   }
   .slide .container .next {
-    right: -15px;
+    right: -35px;
     width: 35px;
     height: 35px;
   }

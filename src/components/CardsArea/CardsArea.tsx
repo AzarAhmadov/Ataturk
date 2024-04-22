@@ -27,9 +27,7 @@ const CardsArea: FC = () => {
             >
                 <img src={signature} alt={'imza'} />
             </motion.div>
-
             <Cards />
-
             <motion.div
                 className="card"
                 initial={{

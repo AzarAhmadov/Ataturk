@@ -36,8 +36,9 @@ const LifeScreen: FC = () => {
         <main>
             <Suspense fallback={<Spinner />}>
                 {Life.map((el, idx) => (
-                    <div key={idx}>
+                    <>
                         <motion.div
+                            key={idx}
                             className="card"
                             initial={{
                                 opacity: 0,
@@ -55,7 +56,7 @@ const LifeScreen: FC = () => {
                             <Title title={t('life.title')} />
                         </motion.div>
                         <History text={lifeTexts} img={el.img} />
-                    </div>
+                    </>
                 ))}
                 <motion.div
                     className="card"

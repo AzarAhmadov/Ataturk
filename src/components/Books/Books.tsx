@@ -33,7 +33,7 @@ const Books: FC = () => {
                                 }}
                                 src={book.slide_img}
                             />
-                            <h4>{book.slide_txt}</h4>
+                            {/* <h4>{book.slide_txt}</h4> */}
                         </li>
                     </div>
                 ))}

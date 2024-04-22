@@ -451,6 +451,11 @@ header {
     position: relative;
     padding: 5px;
     cursor: pointer;
+    transition: 500ms all;
+
+    &:hover {
+      transform: scale(0.97);
+    }
 
     &:hover h4 {
       opacity: 1;
@@ -587,6 +592,7 @@ header {
   transition: 400ms all;
   visibility: hidden;
   transform: scale(0.95);
+  z-index: 1000;
 
   &.active {
     opacity: 1;
@@ -780,7 +786,7 @@ header {
     .container {
 
       .close {
-        top: -20px;
+        top: -50px;
         right: -100px;
       }
 
@@ -873,21 +879,21 @@ header {
   .slide {
     .container {
       .close {
-        top: -45px;
-        right: 32px;
+        top: -50px;
+        right: 15px;
         width: 35px;
         height: 35px;
         padding: 6px;
       }
 
       .prev {
-        left: -15px;
+        left: -35px;
         width: 35px;
         height: 35px;
       }
 
       .next {
-        right: -15px;
+        right: -35px;
         width: 35px;
         height: 35px;
       }

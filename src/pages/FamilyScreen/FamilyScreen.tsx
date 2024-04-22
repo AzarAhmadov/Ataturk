@@ -15,24 +15,31 @@ const FamilyScreen: FC = () => {
 
     const { t } = useTranslation();
 
-    const FamilyTextsMother: HistoryTextType[] = [
-        { t_1: t('family.family_text_mother.t_1') },
-        { t_2: t('family.family_text_mother.t_2') },
-        { t_3: t('family.family_text_mother.t_3') },
+    const lifeTitles = [
+        t('family.mother'),
+        t('family.father'),
     ];
 
-    const FamilyTextsFather: HistoryTextType[] = [
-        { t_1: t('family.family_text_father.t_1') },
-        { t_2: t('family.family_text_father.t_2') },
+    const warHistories: HistoryTextType[][] = [
+        [
+            { t_1: t('family.family_text_mother.t_1') },
+            { t_2: t('family.family_text_mother.t_2') },
+            { t_3: t('family.family_text_mother.t_3') },
+        ],
+        [
+            { t_1: t('family.family_text_father.t_1') },
+            { t_1: t('family.family_text_father.t_2') },
+        ]
     ];
 
     return (
         <main>
             <Suspense fallback={<Spinner />}>
                 {Family.map((el, idx) => (
-                    <div key={idx}>
+                    <>
                         <motion.div
                             className="card"
+                            key={idx}
                             initial={{
                                 opacity: 0,
                                 scale: 0.9,
@@ -46,28 +53,11 @@ const FamilyScreen: FC = () => {
                             }}
                             viewport={{ once: false }}
                         >
-                            {idx === 0 && <Title title={t('family.mother')} />}
+                            <Title title={lifeTitles[idx]} />
                         </motion.div>
-                        {idx === 0 && <History text={FamilyTextsMother} img={el.img} />}
-                        {idx === 1 && <History text={FamilyTextsFather} img={el.img} />}
-                        <motion.div
-                            className="card"
-                            initial={{
-                                opacity: 0,
-                                scale: 0.9,
-                            }}
-                            whileInView={{
-                                opacity: 1,
-                                scale: 1,
-                                transition: {
-                                    duration: 2,
-                                },
-                            }}
-                            viewport={{ once: false }}
-                        >
-                            {idx === 0 && <Title title={t('family.father')} />}
-                        </motion.div>
-                    </div>
+
+                        <History text={warHistories[idx]} img={el.img} />
+                    </>
                 ))}
             </Suspense>
             <MobileMenu />

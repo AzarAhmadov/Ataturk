@@ -52,9 +52,9 @@ const Slide: FC<SlideProps> = ({ CloseModal, currentData }) => {
                         BooksData.map((el, idx) => (
                             <div key={idx} style={{ display: idx === currentSlide ? 'flex' : 'none' }}>
                                 <img className={idx === currentSlide ? 'active' : ''} src={el.slide_img} alt={el.slide_txt} />
-                                <h4>
+                                {/* <h4>
                                     {el.slide_txt}
-                                </h4>
+                                </h4> */}
                             </div>
                         ))
                     }
