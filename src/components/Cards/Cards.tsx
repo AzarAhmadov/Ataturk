@@ -30,7 +30,7 @@ const Cards: FC = () => {
                         viewport={{ once: true }}
                     >
                         <NavLink to={'/Ataturk/battles'}>
-                            <img loading='lazy' src={BattlesImg} alt={`Atatürk'ün Döyüşləri`} />
+                            <img src={BattlesImg} alt={`Atatürk'ün Döyüşləri`} />
                             {t('about_cards.battles')}
                         </NavLink>
                     </motion.div>
@@ -50,7 +50,7 @@ const Cards: FC = () => {
                         viewport={{ once: true }}
                     >
                         <NavLink to={'/Ataturk/life'}>
-                            <img loading='lazy' src={LifeImg} alt={`Atatürk'ün həyatı`} />
+                            <img src={LifeImg} alt={`Atatürk'ün həyatı`} />
                             {t('about_cards.life')}
                         </NavLink>
                     </motion.div>
@@ -70,7 +70,7 @@ const Cards: FC = () => {
                         viewport={{ once: true }}
                     >
                         <NavLink to={'/Ataturk/family'}>
-                            <img loading='lazy' src={FamilysImg} alt={`Atatürk'ün ailəsi`} />
+                            <img src={FamilysImg} alt={`Atatürk'ün ailəsi`} />
                             {t('about_cards.family')}
                         </NavLink>
                     </motion.div>
