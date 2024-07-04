@@ -1,6 +1,6 @@
 export const BooksData = [
     {
-        slide_img: 'https://isyonet.iskultur.com.tr/dosyalar/2021/10/Nutuk-%E2%80%93-Gazi-Mustafa-Kemal-Ataturk-Cocuklarimiza-Kurtulus-Savasini-Anlatiyor-%E2%80%93-Sert-Kapak.png',
+        slide_img: 'https://media.babil.com/kitap/0258060_nutuk_27989.jpeg',
         slide_txt: 'Nutuk'
     },
     {
