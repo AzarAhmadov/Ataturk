@@ -2,6 +2,7 @@ import { FC, useEffect, useRef, useState, memo } from 'react'
 import Container from '../Container/Container'
 import { BooksData } from '../../data/data'
 import { BookProps } from '../../types/types';
+
 interface SlideProps {
     CloseModal: () => void;
     currentData: BookProps | undefined;
