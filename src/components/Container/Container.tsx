@@ -1,14 +1,10 @@
-import { FC, ReactNode } from 'react'
+import { FC, ReactNode, memo } from "react";
 interface Children {
-    children: ReactNode
+  children: ReactNode;
 }
 
 const Container: FC<Children> = ({ children }) => {
-    return (
-        <section className='container'>
-            {children}
-        </section>
-    )
-}
+  return <section className="container">{children}</section>;
+};
 
-export default Container
+export default memo(Container);
